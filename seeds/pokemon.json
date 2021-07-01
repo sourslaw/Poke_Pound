@@ -1,9 +1,9 @@
 [
   {
-    "Number": 1,
+    "id": 1,
     "Pokemon": "Bulbasaur",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 45,
     "Attack": 49,
     "Defense": 49,
@@ -14,10 +14,10 @@
     "Description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
   },
   {
-    "Number": 2,
+    "id": 2,
     "Pokemon": "Ivysaur",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 60,
     "Attack": 62,
     "Defense": 63,
@@ -28,10 +28,10 @@
     "Description": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
   },
   {
-    "Number": 3,
+    "id": 3,
     "Pokemon": "Venusaur",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 80,
     "Attack": 82,
     "Defense": 83,
@@ -42,10 +42,10 @@
     "Description": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
   },
   {
-    "Number": 4,
+    "id": 4,
     "Pokemon": "Charmander",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 39,
     "Attack": 52,
     "Defense": 43,
@@ -56,10 +56,10 @@
     "Description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail."
   },
   {
-    "Number": 5,
+    "id": 5,
     "Pokemon": "Charmeleon",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 58,
     "Attack": 64,
     "Defense": 58,
@@ -70,10 +70,10 @@
     "Description": "When it swings its burning tail, it elevates the temperature to unbearably high levels."
   },
   {
-    "Number": 6,
+    "id": 6,
     "Pokemon": "Charizard",
-    "Type 1": "Fire",
-    "Type 2": "Flying",
+    "Type1": "Fire",
+    "Type2": "Flying",
     "Price": 78,
     "Attack": 84,
     "Defense": 78,
@@ -84,10 +84,10 @@
     "Description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally."
   },
   {
-    "Number": 7,
+    "id": 7,
     "Pokemon": "Squirtle",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 44,
     "Attack": 48,
     "Defense": 65,
@@ -98,10 +98,10 @@
     "Description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth."
   },
   {
-    "Number": 8,
+    "id": 8,
     "Pokemon": "Wartortle",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 59,
     "Attack": 63,
     "Defense": 80,
@@ -112,10 +112,10 @@
     "Description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance."
   },
   {
-    "Number": 9,
+    "id": 9,
     "Pokemon": "Blastoise",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 79,
     "Attack": 83,
     "Defense": 100,
@@ -126,10 +126,10 @@
     "Description": "A brutal Pokemon with pressurized water jets on its shell. They are used for high speed tackles."
   },
   {
-    "Number": 10,
+    "id": 10,
     "Pokemon": "Caterpie",
-    "Type 1": "Bug",
-    "Type 2": "",
+    "Type1": "Bug",
+    "Type2": "",
     "Price": 45,
     "Attack": 30,
     "Defense": 35,
@@ -140,10 +140,10 @@
     "Description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
   },
   {
-    "Number": 11,
+    "id": 11,
     "Pokemon": "Metapod",
-    "Type 1": "Bug",
-    "Type 2": "",
+    "Type1": "Bug",
+    "Type2": "",
     "Price": 50,
     "Attack": 20,
     "Defense": 55,
@@ -154,10 +154,10 @@
     "Description": "This Pokemon is vulnerable to attack while its shell is soft, exposing its weak and tender body."
   },
   {
-    "Number": 12,
+    "id": 12,
     "Pokemon": "Butterfree",
-    "Type 1": "Bug",
-    "Type 2": "Flying",
+    "Type1": "Bug",
+    "Type2": "Flying",
     "Price": 60,
     "Attack": 45,
     "Defense": 50,
@@ -168,10 +168,10 @@
     "Description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air."
   },
   {
-    "Number": 13,
+    "id": 13,
     "Pokemon": "Weedle",
-    "Type 1": "Bug",
-    "Type 2": "Poison",
+    "Type1": "Bug",
+    "Type2": "Poison",
     "Price": 40,
     "Attack": 35,
     "Defense": 30,
@@ -182,10 +182,10 @@
     "Description": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head."
   },
   {
-    "Number": 14,
+    "id": 14,
     "Pokemon": "Kakuna",
-    "Type 1": "Bug",
-    "Type 2": "Poison",
+    "Type1": "Bug",
+    "Type2": "Poison",
     "Price": 45,
     "Attack": 25,
     "Defense": 50,
@@ -196,10 +196,10 @@
     "Description": "Almost incapable of moving, this Pokemon can only harden its shell to protect itself from predators."
   },
   {
-    "Number": 15,
+    "id": 15,
     "Pokemon": "Beedrill",
-    "Type 1": "Bug",
-    "Type 2": "Poison",
+    "Type1": "Bug",
+    "Type2": "Poison",
     "Price": 65,
     "Attack": 80,
     "Defense": 40,
@@ -210,10 +210,10 @@
     "Description": "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail."
   },
   {
-    "Number": 16,
+    "id": 16,
     "Pokemon": "Pidgey",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 40,
     "Attack": 45,
     "Defense": 40,
@@ -224,10 +224,10 @@
     "Description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
   },
   {
-    "Number": 17,
+    "id": 17,
     "Pokemon": "Pidgeotto",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 63,
     "Attack": 60,
     "Defense": 55,
@@ -238,10 +238,10 @@
     "Description": "Very protective of its sprawling territorial area, this Pokemon will fiercely peck at any intruder."
   },
   {
-    "Number": 18,
+    "id": 18,
     "Pokemon": "Pidgeot",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 83,
     "Attack": 80,
     "Defense": 75,
@@ -252,10 +252,10 @@
     "Description": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP."
   },
   {
-    "Number": 19,
+    "id": 19,
     "Pokemon": "Rattata",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 30,
     "Attack": 56,
     "Defense": 35,
@@ -266,10 +266,10 @@
     "Description": "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
   },
   {
-    "Number": 20,
+    "id": 20,
     "Pokemon": "Raticate",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 55,
     "Attack": 81,
     "Defense": 60,
@@ -280,10 +280,10 @@
     "Description": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off."
   },
   {
-    "Number": 21,
+    "id": 21,
     "Pokemon": "Spearow",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 40,
     "Attack": 60,
     "Defense": 30,
@@ -294,10 +294,10 @@
     "Description": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
   },
   {
-    "Number": 22,
+    "id": 22,
     "Pokemon": "Fearow",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 65,
     "Attack": 90,
     "Defense": 65,
@@ -308,10 +308,10 @@
     "Description": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
   },
   {
-    "Number": 23,
+    "id": 23,
     "Pokemon": "Ekans",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 35,
     "Attack": 60,
     "Defense": 44,
@@ -322,10 +322,10 @@
     "Description": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole."
   },
   {
-    "Number": 24,
+    "id": 24,
     "Pokemon": "Arbok",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 60,
     "Attack": 85,
     "Defense": 69,
@@ -336,10 +336,10 @@
     "Description": "It is rumored that the ferocious warning markings on its belly differ from area to area."
   },
   {
-    "Number": 25,
+    "id": 25,
     "Pokemon": "Pikachu",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 35,
     "Attack": 55,
     "Defense": 30,
@@ -350,10 +350,10 @@
     "Description": "When several of these Pokemon gather, their electricity could build and cause lightning storms."
   },
   {
-    "Number": 26,
+    "id": 26,
     "Pokemon": "Raichu",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 60,
     "Attack": 90,
     "Defense": 55,
@@ -364,10 +364,10 @@
     "Description": "Its long tail serves as a ground to protect itself from its own high voltage power."
   },
   {
-    "Number": 27,
+    "id": 27,
     "Pokemon": "Sandshrew",
-    "Type 1": "Ground",
-    "Type 2": "",
+    "Type1": "Ground",
+    "Type2": "",
     "Price": 50,
     "Attack": 75,
     "Defense": 85,
@@ -378,10 +378,10 @@
     "Description": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food."
   },
   {
-    "Number": 28,
+    "id": 28,
     "Pokemon": "Sandslash",
-    "Type 1": "Ground",
-    "Type 2": "",
+    "Type1": "Ground",
+    "Type2": "",
     "Price": 75,
     "Attack": 100,
     "Defense": 110,
@@ -392,10 +392,10 @@
     "Description": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
   },
   {
-    "Number": 29,
+    "id": 29,
     "Pokemon": "NidoranF",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 55,
     "Attack": 47,
     "Defense": 52,
@@ -406,10 +406,10 @@
     "Description": "Although small, its venomous barbs render this Pokemon dangerous. The female has smaller horns."
   },
   {
-    "Number": 30,
+    "id": 30,
     "Pokemon": "Nidorina",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 70,
     "Attack": 62,
     "Defense": 67,
@@ -420,10 +420,10 @@
     "Description": "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
   },
   {
-    "Number": 31,
+    "id": 31,
     "Pokemon": "Nidoqueen",
-    "Type 1": "Poison",
-    "Type 2": "Ground",
+    "Type1": "Poison",
+    "Type2": "Ground",
     "Price": 90,
     "Attack": 82,
     "Defense": 87,
@@ -434,10 +434,10 @@
     "Description": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
   },
   {
-    "Number": 32,
+    "id": 32,
     "Pokemon": "NidoranM",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 46,
     "Attack": 57,
     "Defense": 40,
@@ -448,10 +448,10 @@
     "Description": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom."
   },
   {
-    "Number": 33,
+    "id": 33,
     "Pokemon": "Nidorino",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 61,
     "Attack": 72,
     "Defense": 57,
@@ -462,10 +462,10 @@
     "Description": "An aggressive Pokemon that is quick to attack. The horn on its head secretes a powerful venom."
   },
   {
-    "Number": 34,
+    "id": 34,
     "Pokemon": "Nidoking",
-    "Type 1": "Poison",
-    "Type 2": "Ground",
+    "Type1": "Poison",
+    "Type2": "Ground",
     "Price": 81,
     "Attack": 92,
     "Defense": 77,
@@ -476,10 +476,10 @@
     "Description": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones."
   },
   {
-    "Number": 35,
+    "id": 35,
     "Pokemon": "Clefairy",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 70,
     "Attack": 45,
     "Defense": 48,
@@ -490,10 +490,10 @@
     "Description": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas."
   },
   {
-    "Number": 36,
+    "id": 36,
     "Pokemon": "Clefable",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 95,
     "Attack": 70,
     "Defense": 73,
@@ -504,10 +504,10 @@
     "Description": "A timid fairy Pokemon that is rarely seen. It will run and hide the moment it senses people."
   },
   {
-    "Number": 37,
+    "id": 37,
     "Pokemon": "Vulpix",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 38,
     "Attack": 41,
     "Defense": 40,
@@ -518,10 +518,10 @@
     "Description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older."
   },
   {
-    "Number": 38,
+    "id": 38,
     "Pokemon": "Ninetales",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 73,
     "Attack": 76,
     "Defense": 75,
@@ -532,10 +532,10 @@
     "Description": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse."
   },
   {
-    "Number": 39,
+    "id": 39,
     "Pokemon": "Jigglypuff",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 115,
     "Attack": 45,
     "Defense": 20,
@@ -546,10 +546,10 @@
     "Description": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep."
   },
   {
-    "Number": 40,
+    "id": 40,
     "Pokemon": "Wigglytuff",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 140,
     "Attack": 70,
     "Defense": 45,
@@ -560,10 +560,10 @@
     "Description": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
   },
   {
-    "Number": 41,
+    "id": 41,
     "Pokemon": "Zubat",
-    "Type 1": "Poison",
-    "Type 2": "Flying",
+    "Type1": "Poison",
+    "Type2": "Flying",
     "Price": 40,
     "Attack": 45,
     "Defense": 35,
@@ -574,10 +574,10 @@
     "Description": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets."
   },
   {
-    "Number": 42,
+    "id": 42,
     "Pokemon": "Golbat",
-    "Type 1": "Poison",
-    "Type 2": "Flying",
+    "Type1": "Poison",
+    "Type2": "Flying",
     "Price": 75,
     "Attack": 80,
     "Defense": 70,
@@ -588,10 +588,10 @@
     "Description": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly."
   },
   {
-    "Number": 43,
+    "id": 43,
     "Pokemon": "Oddish",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 45,
     "Attack": 50,
     "Defense": 55,
@@ -602,10 +602,10 @@
     "Description": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
   },
   {
-    "Number": 44,
+    "id": 44,
     "Pokemon": "Gloom",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 60,
     "Attack": 65,
     "Defense": 70,
@@ -616,10 +616,10 @@
     "Description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey."
   },
   {
-    "Number": 45,
+    "id": 45,
     "Pokemon": "Vileplume",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 75,
     "Attack": 80,
     "Defense": 85,
@@ -630,10 +630,10 @@
     "Description": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
   },
   {
-    "Number": 46,
+    "id": 46,
     "Pokemon": "Paras",
-    "Type 1": "Bug",
-    "Type 2": "Grass",
+    "Type1": "Bug",
+    "Type2": "Grass",
     "Price": 35,
     "Attack": 70,
     "Defense": 55,
@@ -644,10 +644,10 @@
     "Description": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
   },
   {
-    "Number": 47,
+    "id": 47,
     "Pokemon": "Parasect",
-    "Type 1": "Bug",
-    "Type 2": "Grass",
+    "Type1": "Bug",
+    "Type2": "Grass",
     "Price": 60,
     "Attack": 95,
     "Defense": 80,
@@ -658,10 +658,10 @@
     "Description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places."
   },
   {
-    "Number": 48,
+    "id": 48,
     "Pokemon": "Venonat",
-    "Type 1": "Bug",
-    "Type 2": "Poison",
+    "Type1": "Bug",
+    "Type2": "Poison",
     "Price": 60,
     "Attack": 55,
     "Defense": 50,
@@ -672,10 +672,10 @@
     "Description": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night."
   },
   {
-    "Number": 49,
+    "id": 49,
     "Pokemon": "Venomoth",
-    "Type 1": "Bug",
-    "Type 2": "Poison",
+    "Type1": "Bug",
+    "Type2": "Poison",
     "Price": 70,
     "Attack": 65,
     "Defense": 60,
@@ -686,10 +686,10 @@
     "Description": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has."
   },
   {
-    "Number": 50,
+    "id": 50,
     "Pokemon": "Diglett",
-    "Type 1": "Ground",
-    "Type 2": "",
+    "Type1": "Ground",
+    "Type2": "",
     "Price": 10,
     "Attack": 55,
     "Defense": 25,
@@ -700,10 +700,10 @@
     "Description": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground."
   },
   {
-    "Number": 51,
+    "id": 51,
     "Pokemon": "Dugtrio",
-    "Type 1": "Ground",
-    "Type 2": "",
+    "Type1": "Ground",
+    "Type2": "",
     "Price": 35,
     "Attack": 80,
     "Defense": 50,
@@ -714,10 +714,10 @@
     "Description": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground."
   },
   {
-    "Number": 52,
+    "id": 52,
     "Pokemon": "Meowth",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 40,
     "Attack": 45,
     "Defense": 35,
@@ -728,10 +728,10 @@
     "Description": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
   },
   {
-    "Number": 53,
+    "id": 53,
     "Pokemon": "Persian",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 65,
     "Attack": 70,
     "Defense": 60,
@@ -742,10 +742,10 @@
     "Description": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
   },
   {
-    "Number": 54,
+    "id": 54,
     "Pokemon": "Psyduck",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 50,
     "Attack": 52,
     "Defense": 48,
@@ -756,10 +756,10 @@
     "Description": "While lulling its enemies with its vacant look, this wily Pokemon will use psychokinetic powers."
   },
   {
-    "Number": 55,
+    "id": 55,
     "Pokemon": "Golduck",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 80,
     "Attack": 82,
     "Defense": 78,
@@ -770,10 +770,10 @@
     "Description": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
   },
   {
-    "Number": 56,
+    "id": 56,
     "Pokemon": "Mankey",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 40,
     "Attack": 80,
     "Defense": 35,
@@ -784,10 +784,10 @@
     "Description": "Extremely quick to anger. It could be docile one moment then thrashing away the next instant."
   },
   {
-    "Number": 57,
+    "id": 57,
     "Pokemon": "Primeape",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 65,
     "Attack": 105,
     "Defense": 60,
@@ -798,10 +798,10 @@
     "Description": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught."
   },
   {
-    "Number": 58,
+    "id": 58,
     "Pokemon": "Growlithe",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 55,
     "Attack": 70,
     "Defense": 45,
@@ -812,10 +812,10 @@
     "Description": "Very protective of its territory. It will bark and bite to repel intruders from its space."
   },
   {
-    "Number": 59,
+    "id": 59,
     "Pokemon": "Arcanine",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 90,
     "Attack": 110,
     "Defense": 80,
@@ -826,10 +826,10 @@
     "Description": "A Pokemon that has been admired since the past for its beauty. It runs agilely as if on wings."
   },
   {
-    "Number": 60,
+    "id": 60,
     "Pokemon": "Poliwag",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 40,
     "Attack": 50,
     "Defense": 40,
@@ -840,10 +840,10 @@
     "Description": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand."
   },
   {
-    "Number": 61,
+    "id": 61,
     "Pokemon": "Poliwhirl",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 65,
     "Attack": 65,
     "Defense": 65,
@@ -854,10 +854,10 @@
     "Description": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy."
   },
   {
-    "Number": 62,
+    "id": 62,
     "Pokemon": "Poliwrath",
-    "Type 1": "Water",
-    "Type 2": "Fighting",
+    "Type1": "Water",
+    "Type2": "Fighting",
     "Price": 90,
     "Attack": 85,
     "Defense": 95,
@@ -868,10 +868,10 @@
     "Description": "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers."
   },
   {
-    "Number": 63,
+    "id": 63,
     "Pokemon": "Abra",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 25,
     "Attack": 20,
     "Defense": 15,
@@ -882,10 +882,10 @@
     "Description": "Using its ability to read minds, it will identify impending danger and TELEPORT to safety."
   },
   {
-    "Number": 64,
+    "id": 64,
     "Pokemon": "Kadabra",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 40,
     "Attack": 35,
     "Defense": 30,
@@ -896,10 +896,10 @@
     "Description": "It emits special alpha waves from its body that induce headaches just by being close by."
   },
   {
-    "Number": 65,
+    "id": 65,
     "Pokemon": "Alakazam",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 55,
     "Attack": 50,
     "Defense": 45,
@@ -910,10 +910,10 @@
     "Description": "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000."
   },
   {
-    "Number": 66,
+    "id": 66,
     "Pokemon": "Machop",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 70,
     "Attack": 80,
     "Defense": 50,
@@ -924,10 +924,10 @@
     "Description": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger."
   },
   {
-    "Number": 67,
+    "id": 67,
     "Pokemon": "Machoke",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 80,
     "Attack": 100,
     "Defense": 70,
@@ -938,10 +938,10 @@
     "Description": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions."
   },
   {
-    "Number": 68,
+    "id": 68,
     "Pokemon": "Machamp",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 90,
     "Attack": 130,
     "Defense": 80,
@@ -952,10 +952,10 @@
     "Description": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon."
   },
   {
-    "Number": 69,
+    "id": 69,
     "Pokemon": "Bellsprout",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 50,
     "Attack": 75,
     "Defense": 35,
@@ -966,10 +966,10 @@
     "Description": "A carnivorous Pokemon that traps and eats bugs. It uses its root feet to soak up needed moisture."
   },
   {
-    "Number": 70,
+    "id": 70,
     "Pokemon": "Weepinbell",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 65,
     "Attack": 90,
     "Defense": 50,
@@ -980,10 +980,10 @@
     "Description": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID."
   },
   {
-    "Number": 71,
+    "id": 71,
     "Pokemon": "Victreebel",
-    "Type 1": "Grass",
-    "Type 2": "Poison",
+    "Type1": "Grass",
+    "Type2": "Poison",
     "Price": 80,
     "Attack": 105,
     "Defense": 65,
@@ -994,10 +994,10 @@
     "Description": "Said to live in huge colonies deep in jungles, although no one has ever returned from there."
   },
   {
-    "Number": 72,
+    "id": 72,
     "Pokemon": "Tentacool",
-    "Type 1": "Water",
-    "Type 2": "Poison",
+    "Type1": "Water",
+    "Type2": "Poison",
     "Price": 40,
     "Attack": 40,
     "Defense": 35,
@@ -1008,10 +1008,10 @@
     "Description": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
   },
   {
-    "Number": 73,
+    "id": 73,
     "Pokemon": "Tentacruel",
-    "Type 1": "Water",
-    "Type 2": "Poison",
+    "Type1": "Water",
+    "Type2": "Poison",
     "Price": 80,
     "Attack": 70,
     "Defense": 65,
@@ -1022,10 +1022,10 @@
     "Description": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey."
   },
   {
-    "Number": 74,
+    "id": 74,
     "Pokemon": "Geodude",
-    "Type 1": "Rock",
-    "Type 2": "Ground",
+    "Type1": "Rock",
+    "Type2": "Ground",
     "Price": 40,
     "Attack": 80,
     "Defense": 100,
@@ -1036,10 +1036,10 @@
     "Description": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
   },
   {
-    "Number": 75,
+    "id": 75,
     "Pokemon": "Graveler",
-    "Type 1": "Rock",
-    "Type 2": "Ground",
+    "Type1": "Rock",
+    "Type2": "Ground",
     "Price": 55,
     "Attack": 95,
     "Defense": 115,
@@ -1050,10 +1050,10 @@
     "Description": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
   },
   {
-    "Number": 76,
+    "id": 76,
     "Pokemon": "Golem",
-    "Type 1": "Rock",
-    "Type 2": "Ground",
+    "Type1": "Rock",
+    "Type2": "Ground",
     "Price": 80,
     "Attack": 110,
     "Defense": 130,
@@ -1064,10 +1064,10 @@
     "Description": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
   },
   {
-    "Number": 77,
+    "id": 77,
     "Pokemon": "Ponyta",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 50,
     "Attack": 85,
     "Defense": 55,
@@ -1078,10 +1078,10 @@
     "Description": "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time."
   },
   {
-    "Number": 78,
+    "id": 78,
     "Pokemon": "Rapidash",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 65,
     "Attack": 100,
     "Defense": 70,
@@ -1092,10 +1092,10 @@
     "Description": "Very competitive, this Pokemon will chase anything that moves fast in the hopes of racing it."
   },
   {
-    "Number": 79,
+    "id": 79,
     "Pokemon": "Slowpoke",
-    "Type 1": "Water",
-    "Type 2": "Psychic",
+    "Type1": "Water",
+    "Type2": "Psychic",
     "Price": 90,
     "Attack": 65,
     "Defense": 65,
@@ -1106,10 +1106,10 @@
     "Description": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
   },
   {
-    "Number": 80,
+    "id": 80,
     "Pokemon": "Slowbro",
-    "Type 1": "Water",
-    "Type 2": "Psychic",
+    "Type1": "Water",
+    "Type2": "Psychic",
     "Price": 95,
     "Attack": 75,
     "Defense": 110,
@@ -1120,10 +1120,10 @@
     "Description": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps."
   },
   {
-    "Number": 81,
+    "id": 81,
     "Pokemon": "Magnemite",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 25,
     "Attack": 35,
     "Defense": 70,
@@ -1134,10 +1134,10 @@
     "Description": "Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves."
   },
   {
-    "Number": 82,
+    "id": 82,
     "Pokemon": "Magneton",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 50,
     "Attack": 60,
     "Defense": 95,
@@ -1148,10 +1148,10 @@
     "Description": "Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up."
   },
   {
-    "Number": 83,
+    "id": 83,
     "Pokemon": "Farfetch'd",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 52,
     "Attack": 65,
     "Defense": 55,
@@ -1162,10 +1162,10 @@
     "Description": "The sprig of green onions it holds is its weapon. It is used much like a metal sword."
   },
   {
-    "Number": 84,
+    "id": 84,
     "Pokemon": "Doduo",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 35,
     "Attack": 85,
     "Defense": 45,
@@ -1176,10 +1176,10 @@
     "Description": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
   },
   {
-    "Number": 85,
+    "id": 85,
     "Pokemon": "Dodrio",
-    "Type 1": "Normal",
-    "Type 2": "Flying",
+    "Type1": "Normal",
+    "Type2": "Flying",
     "Price": 60,
     "Attack": 110,
     "Defense": 70,
@@ -1190,10 +1190,10 @@
     "Description": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
   },
   {
-    "Number": 86,
+    "id": 86,
     "Pokemon": "Seel",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 65,
     "Attack": 45,
     "Defense": 55,
@@ -1204,10 +1204,10 @@
     "Description": "The protruding horn on its head is very hard. It is used for bashing through thick ice."
   },
   {
-    "Number": 87,
+    "id": 87,
     "Pokemon": "Dewgong",
-    "Type 1": "Water",
-    "Type 2": "Ice",
+    "Type1": "Water",
+    "Type2": "Ice",
     "Price": 90,
     "Attack": 70,
     "Defense": 80,
@@ -1218,10 +1218,10 @@
     "Description": "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
   },
   {
-    "Number": 88,
+    "id": 88,
     "Pokemon": "Grimer",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 80,
     "Attack": 80,
     "Defense": 50,
@@ -1232,10 +1232,10 @@
     "Description": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
   },
   {
-    "Number": 89,
+    "id": 89,
     "Pokemon": "Muk",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 105,
     "Attack": 105,
     "Defense": 75,
@@ -1246,10 +1246,10 @@
     "Description": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
   },
   {
-    "Number": 90,
+    "id": 90,
     "Pokemon": "Shellder",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 30,
     "Attack": 65,
     "Defense": 100,
@@ -1260,10 +1260,10 @@
     "Description": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
   },
   {
-    "Number": 91,
+    "id": 91,
     "Pokemon": "Cloyster",
-    "Type 1": "Water",
-    "Type 2": "Ice",
+    "Type1": "Water",
+    "Type2": "Ice",
     "Price": 50,
     "Attack": 95,
     "Defense": 180,
@@ -1274,10 +1274,10 @@
     "Description": "When attacked, it launches its horns in quick volleys. Its innards have never been seen."
   },
   {
-    "Number": 92,
+    "id": 92,
     "Pokemon": "Gastly",
-    "Type 1": "Ghost",
-    "Type 2": "Poison",
+    "Type1": "Ghost",
+    "Type2": "Poison",
     "Price": 30,
     "Attack": 35,
     "Defense": 30,
@@ -1288,10 +1288,10 @@
     "Description": "Almost invisible, this gaseous Pokemon cloaks the target and puts it to sleep without notice."
   },
   {
-    "Number": 93,
+    "id": 93,
     "Pokemon": "Haunter",
-    "Type 1": "Ghost",
-    "Type 2": "Poison",
+    "Type1": "Ghost",
+    "Type2": "Poison",
     "Price": 45,
     "Attack": 50,
     "Defense": 45,
@@ -1302,10 +1302,10 @@
     "Description": "Because of its ability to slip through block walls, it is said to be from another dimension."
   },
   {
-    "Number": 94,
+    "id": 94,
     "Pokemon": "Gengar",
-    "Type 1": "Ghost",
-    "Type 2": "Poison",
+    "Type1": "Ghost",
+    "Type2": "Poison",
     "Price": 60,
     "Attack": 65,
     "Defense": 60,
@@ -1316,10 +1316,10 @@
     "Description": "Under a full moon, this Pokemon likes to mimic the shadows of people and laugh at their fright."
   },
   {
-    "Number": 95,
+    "id": 95,
     "Pokemon": "Onix",
-    "Type 1": "Rock",
-    "Type 2": "Ground",
+    "Type1": "Rock",
+    "Type2": "Ground",
     "Price": 35,
     "Attack": 45,
     "Defense": 160,
@@ -1330,10 +1330,10 @@
     "Description": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black."
   },
   {
-    "Number": 96,
+    "id": 96,
     "Pokemon": "Drowzee",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 60,
     "Attack": 48,
     "Defense": 45,
@@ -1344,10 +1344,10 @@
     "Description": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams."
   },
   {
-    "Number": 97,
+    "id": 97,
     "Pokemon": "Hypno",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 85,
     "Attack": 73,
     "Defense": 70,
@@ -1358,10 +1358,10 @@
     "Description": "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION."
   },
   {
-    "Number": 98,
+    "id": 98,
     "Pokemon": "Krabby",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 30,
     "Attack": 105,
     "Defense": 90,
@@ -1372,10 +1372,10 @@
     "Description": "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
   },
   {
-    "Number": 99,
+    "id": 99,
     "Pokemon": "Kingler",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 55,
     "Attack": 130,
     "Defense": 115,
@@ -1386,10 +1386,10 @@
     "Description": "The large pincer has 10000 Price of crushing power. However, its huge size makes it unwieldy to use."
   },
   {
-    "Number": 100,
+    "id": 100,
     "Pokemon": "Voltorb",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 40,
     "Attack": 30,
     "Defense": 50,
@@ -1400,10 +1400,10 @@
     "Description": "Usually found in power plants. Easily mistaken for a Pokeball, they have zapped many people."
   },
   {
-    "Number": 101,
+    "id": 101,
     "Pokemon": "Electrode",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 60,
     "Attack": 50,
     "Defense": 70,
@@ -1414,10 +1414,10 @@
     "Description": "It stores electric energy under very high pressure. It often explodes with little or no provocation."
   },
   {
-    "Number": 102,
+    "id": 102,
     "Pokemon": "Exeggcute",
-    "Type 1": "Grass",
-    "Type 2": "Psychic",
+    "Type1": "Grass",
+    "Type2": "Psychic",
     "Price": 60,
     "Attack": 40,
     "Defense": 80,
@@ -1428,10 +1428,10 @@
     "Description": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
   },
   {
-    "Number": 103,
+    "id": 103,
     "Pokemon": "Exeggutor",
-    "Type 1": "Grass",
-    "Type 2": "Psychic",
+    "Type1": "Grass",
+    "Type2": "Psychic",
     "Price": 95,
     "Attack": 95,
     "Defense": 85,
@@ -1442,10 +1442,10 @@
     "Description": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE."
   },
   {
-    "Number": 104,
+    "id": 104,
     "Pokemon": "Cubone",
-    "Type 1": "Ground",
-    "Type 2": "",
+    "Type1": "Ground",
+    "Type2": "",
     "Price": 50,
     "Attack": 50,
     "Defense": 95,
@@ -1456,10 +1456,10 @@
     "Description": "Because it never removes its skull helmet, no one has ever seen this Pokemon's real face."
   },
   {
-    "Number": 105,
+    "id": 105,
     "Pokemon": "Marowak",
-    "Type 1": "Ground",
-    "Type 2": "",
+    "Type1": "Ground",
+    "Type2": "",
     "Price": 60,
     "Attack": 80,
     "Defense": 110,
@@ -1470,10 +1470,10 @@
     "Description": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
   },
   {
-    "Number": 106,
+    "id": 106,
     "Pokemon": "Hitmonlee",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 50,
     "Attack": 120,
     "Defense": 53,
@@ -1484,10 +1484,10 @@
     "Description": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
   },
   {
-    "Number": 107,
+    "id": 107,
     "Pokemon": "Hitmonchan",
-    "Type 1": "Fighting",
-    "Type 2": "",
+    "Type1": "Fighting",
+    "Type2": "",
     "Price": 50,
     "Attack": 105,
     "Defense": 79,
@@ -1498,10 +1498,10 @@
     "Description": "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see."
   },
   {
-    "Number": 108,
+    "id": 108,
     "Pokemon": "Lickitung",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 90,
     "Attack": 55,
     "Defense": 75,
@@ -1512,10 +1512,10 @@
     "Description": "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies."
   },
   {
-    "Number": 109,
+    "id": 109,
     "Pokemon": "Koffing",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 40,
     "Attack": 65,
     "Defense": 95,
@@ -1526,10 +1526,10 @@
     "Description": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
   },
   {
-    "Number": 110,
+    "id": 110,
     "Pokemon": "Weezing",
-    "Type 1": "Poison",
-    "Type 2": "",
+    "Type1": "Poison",
+    "Type2": "",
     "Price": 65,
     "Attack": 90,
     "Defense": 120,
@@ -1540,10 +1540,10 @@
     "Description": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years."
   },
   {
-    "Number": 111,
+    "id": 111,
     "Pokemon": "Rhyhorn",
-    "Type 1": "Ground",
-    "Type 2": "Rock",
+    "Type1": "Ground",
+    "Type2": "Rock",
     "Price": 80,
     "Attack": 85,
     "Defense": 95,
@@ -1554,10 +1554,10 @@
     "Description": "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying."
   },
   {
-    "Number": 112,
+    "id": 112,
     "Pokemon": "Rhydon",
-    "Type 1": "Ground",
-    "Type 2": "Rock",
+    "Type1": "Ground",
+    "Type2": "Rock",
     "Price": 105,
     "Attack": 130,
     "Defense": 120,
@@ -1568,10 +1568,10 @@
     "Description": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees."
   },
   {
-    "Number": 113,
+    "id": 113,
     "Pokemon": "Chansey",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 250,
     "Attack": 5,
     "Defense": 5,
@@ -1582,10 +1582,10 @@
     "Description": "A rare and elusive Pokemon that is said to bring happiness to those who manage to get it."
   },
   {
-    "Number": 114,
+    "id": 114,
     "Pokemon": "Tangela",
-    "Type 1": "Grass",
-    "Type 2": "",
+    "Type1": "Grass",
+    "Type2": "",
     "Price": 65,
     "Attack": 55,
     "Defense": 115,
@@ -1596,10 +1596,10 @@
     "Description": "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks."
   },
   {
-    "Number": 115,
+    "id": 115,
     "Pokemon": "Kangaskhan",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 105,
     "Attack": 95,
     "Defense": 80,
@@ -1610,10 +1610,10 @@
     "Description": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old."
   },
   {
-    "Number": 116,
+    "id": 116,
     "Pokemon": "Horsea",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 30,
     "Attack": 40,
     "Defense": 70,
@@ -1624,10 +1624,10 @@
     "Description": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
   },
   {
-    "Number": 117,
+    "id": 117,
     "Pokemon": "Seadra",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 55,
     "Attack": 65,
     "Defense": 95,
@@ -1638,10 +1638,10 @@
     "Description": "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail."
   },
   {
-    "Number": 118,
+    "id": 118,
     "Pokemon": "Goldeen",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 45,
     "Attack": 67,
     "Defense": 60,
@@ -1652,10 +1652,10 @@
     "Description": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen."
   },
   {
-    "Number": 119,
+    "id": 119,
     "Pokemon": "Seaking",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 80,
     "Attack": 92,
     "Defense": 65,
@@ -1666,10 +1666,10 @@
     "Description": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
   },
   {
-    "Number": 120,
+    "id": 120,
     "Pokemon": "Staryu",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 30,
     "Attack": 45,
     "Defense": 55,
@@ -1680,10 +1680,10 @@
     "Description": "An enigmatic Pokemon that can effortlessly regenerate any appendage it loses in battle."
   },
   {
-    "Number": 121,
+    "id": 121,
     "Pokemon": "Starmie",
-    "Type 1": "Water",
-    "Type 2": "Psychic",
+    "Type1": "Water",
+    "Type2": "Psychic",
     "Price": 60,
     "Attack": 75,
     "Defense": 85,
@@ -1694,10 +1694,10 @@
     "Description": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
   },
   {
-    "Number": 122,
+    "id": 122,
     "Pokemon": "Mr. Mime",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 40,
     "Attack": 45,
     "Defense": 65,
@@ -1708,10 +1708,10 @@
     "Description": "If interrupted while it is miming, it will slap around the offender with its broad hands."
   },
   {
-    "Number": 123,
+    "id": 123,
     "Pokemon": "Scyther",
-    "Type 1": "Bug",
-    "Type 2": "Flying",
+    "Type1": "Bug",
+    "Type2": "Flying",
     "Price": 70,
     "Attack": 110,
     "Defense": 80,
@@ -1722,10 +1722,10 @@
     "Description": "With ninja-like agility and speed, it can create the illusion that there is more than one."
   },
   {
-    "Number": 124,
+    "id": 124,
     "Pokemon": "Jynx",
-    "Type 1": "Ice",
-    "Type 2": "Psychic",
+    "Type1": "Ice",
+    "Type2": "Psychic",
     "Price": 65,
     "Attack": 50,
     "Defense": 35,
@@ -1736,10 +1736,10 @@
     "Description": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it."
   },
   {
-    "Number": 125,
+    "id": 125,
     "Pokemon": "Electabuzz",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 65,
     "Attack": 83,
     "Defense": 57,
@@ -1750,10 +1750,10 @@
     "Description": "Normally found near power plants, they can wander away and cause major blackouts in cities."
   },
   {
-    "Number": 126,
+    "id": 126,
     "Pokemon": "Magmar",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 65,
     "Attack": 95,
     "Defense": 57,
@@ -1764,10 +1764,10 @@
     "Description": "Its body always burns with an orange glow that enables it to hide perfectly among flames."
   },
   {
-    "Number": 127,
+    "id": 127,
     "Pokemon": "Pinsir",
-    "Type 1": "Bug",
-    "Type 2": "",
+    "Type1": "Bug",
+    "Type2": "",
     "Price": 65,
     "Attack": 125,
     "Defense": 100,
@@ -1778,10 +1778,10 @@
     "Description": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard."
   },
   {
-    "Number": 128,
+    "id": 128,
     "Pokemon": "Tauros",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 75,
     "Attack": 100,
     "Defense": 95,
@@ -1792,10 +1792,10 @@
     "Description": "When it targets an enemy, it charges furiously while whipping its body with its long tails."
   },
   {
-    "Number": 129,
+    "id": 129,
     "Pokemon": "Magikarp",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 20,
     "Attack": 10,
     "Defense": 55,
@@ -1806,10 +1806,10 @@
     "Description": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
   },
   {
-    "Number": 130,
+    "id": 130,
     "Pokemon": "Gyarados",
-    "Type 1": "Water",
-    "Type 2": "Flying",
+    "Type1": "Water",
+    "Type2": "Flying",
     "Price": 95,
     "Attack": 125,
     "Defense": 79,
@@ -1820,10 +1820,10 @@
     "Description": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
   },
   {
-    "Number": 131,
+    "id": 131,
     "Pokemon": "Lapras",
-    "Type 1": "Water",
-    "Type 2": "Ice",
+    "Type1": "Water",
+    "Type2": "Ice",
     "Price": 130,
     "Attack": 85,
     "Defense": 80,
@@ -1834,10 +1834,10 @@
     "Description": "A Pokemon that has been overhunted almost to extinction. It can ferry people across the water."
   },
   {
-    "Number": 132,
+    "id": 132,
     "Pokemon": "Ditto",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 48,
     "Attack": 48,
     "Defense": 48,
@@ -1848,10 +1848,10 @@
     "Description": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy."
   },
   {
-    "Number": 133,
+    "id": 133,
     "Pokemon": "Eevee",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 55,
     "Attack": 55,
     "Defense": 50,
@@ -1862,10 +1862,10 @@
     "Description": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs."
   },
   {
-    "Number": 134,
+    "id": 134,
     "Pokemon": "Vaporeon",
-    "Type 1": "Water",
-    "Type 2": "",
+    "Type1": "Water",
+    "Type2": "",
     "Price": 130,
     "Attack": 65,
     "Defense": 60,
@@ -1876,10 +1876,10 @@
     "Description": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's."
   },
   {
-    "Number": 135,
+    "id": 135,
     "Pokemon": "Jolteon",
-    "Type 1": "Electric",
-    "Type 2": "",
+    "Type1": "Electric",
+    "Type2": "",
     "Price": 65,
     "Attack": 65,
     "Defense": 60,
@@ -1890,10 +1890,10 @@
     "Description": "It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts."
   },
   {
-    "Number": 136,
+    "id": 136,
     "Pokemon": "Flareon",
-    "Type 1": "Fire",
-    "Type 2": "",
+    "Type1": "Fire",
+    "Type2": "",
     "Price": 65,
     "Attack": 130,
     "Defense": 60,
@@ -1904,10 +1904,10 @@
     "Description": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
   },
   {
-    "Number": 137,
+    "id": 137,
     "Pokemon": "Porygon",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 65,
     "Attack": 60,
     "Defense": 70,
@@ -1918,10 +1918,10 @@
     "Description": "A Pokemon that consists entirely of programming code. Capable of moving freely in cyberspace."
   },
   {
-    "Number": 138,
+    "id": 138,
     "Pokemon": "Omanyte",
-    "Type 1": "Rock",
-    "Type 2": "Water",
+    "Type1": "Rock",
+    "Type2": "Water",
     "Price": 35,
     "Attack": 40,
     "Defense": 100,
@@ -1932,10 +1932,10 @@
     "Description": "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
   },
   {
-    "Number": 139,
+    "id": 139,
     "Pokemon": "Omastar",
-    "Type 1": "Rock",
-    "Type 2": "Water",
+    "Type1": "Rock",
+    "Type2": "Water",
     "Price": 70,
     "Attack": 60,
     "Defense": 125,
@@ -1946,10 +1946,10 @@
     "Description": "A prehistoric Pokemon that died out when its heavy shell made it impossible to catch prey."
   },
   {
-    "Number": 140,
+    "id": 140,
     "Pokemon": "Kabuto",
-    "Type 1": "Rock",
-    "Type 2": "Water",
+    "Type1": "Rock",
+    "Type2": "Water",
     "Price": 30,
     "Attack": 80,
     "Defense": 90,
@@ -1960,10 +1960,10 @@
     "Description": "A Pokemon that was resurrected from a fossil found in what was once the ocean floor eons ago."
   },
   {
-    "Number": 141,
+    "id": 141,
     "Pokemon": "Kabutops",
-    "Type 1": "Rock",
-    "Type 2": "Water",
+    "Type1": "Rock",
+    "Type2": "Water",
     "Price": 60,
     "Attack": 115,
     "Defense": 105,
@@ -1974,10 +1974,10 @@
     "Description": "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
   },
   {
-    "Number": 142,
+    "id": 142,
     "Pokemon": "Aerodactyl",
-    "Type 1": "Rock",
-    "Type 2": "Flying",
+    "Type1": "Rock",
+    "Type2": "Flying",
     "Price": 80,
     "Attack": 105,
     "Defense": 65,
@@ -1988,10 +1988,10 @@
     "Description": "A ferocious, prehistoric Pokemon that goes for the enemy's throat with its serrated saw-like fangs."
   },
   {
-    "Number": 143,
+    "id": 143,
     "Pokemon": "Snorlax",
-    "Type 1": "Normal",
-    "Type 2": "",
+    "Type1": "Normal",
+    "Type2": "",
     "Price": 160,
     "Attack": 110,
     "Defense": 65,
@@ -2002,10 +2002,10 @@
     "Description": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
   },
   {
-    "Number": 144,
+    "id": 144,
     "Pokemon": "Articuno",
-    "Type 1": "Ice",
-    "Type 2": "Flying",
+    "Type1": "Ice",
+    "Type2": "Flying",
     "Price": 90,
     "Attack": 85,
     "Defense": 100,
@@ -2016,10 +2016,10 @@
     "Description": "A legendary bird Pokemon that is said to appear to doomed people who are lost in icy mountains."
   },
   {
-    "Number": 145,
+    "id": 145,
     "Pokemon": "Zapdos",
-    "Type 1": "Electric",
-    "Type 2": "Flying",
+    "Type1": "Electric",
+    "Type2": "Flying",
     "Price": 90,
     "Attack": 90,
     "Defense": 85,
@@ -2030,10 +2030,10 @@
     "Description": "A legendary bird Pokemon that is said to appear from clouds while dropping enormous lightning bolts."
   },
   {
-    "Number": 146,
+    "id": 146,
     "Pokemon": "Moltres",
-    "Type 1": "Fire",
-    "Type 2": "Flying",
+    "Type1": "Fire",
+    "Type2": "Flying",
     "Price": 90,
     "Attack": 100,
     "Defense": 90,
@@ -2044,10 +2044,10 @@
     "Description": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
   },
   {
-    "Number": 147,
+    "id": 147,
     "Pokemon": "Dratini",
-    "Type 1": "Dragon",
-    "Type 2": "",
+    "Type1": "Dragon",
+    "Type2": "",
     "Price": 41,
     "Attack": 64,
     "Defense": 45,
@@ -2058,10 +2058,10 @@
     "Description": "Long considered a mythical Pokemon until recently when a small colony was found living underwater."
   },
   {
-    "Number": 148,
+    "id": 148,
     "Pokemon": "Dragonair",
-    "Type 1": "Dragon",
-    "Type 2": "",
+    "Type1": "Dragon",
+    "Type2": "",
     "Price": 61,
     "Attack": 84,
     "Defense": 65,
@@ -2072,10 +2072,10 @@
     "Description": "A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions."
   },
   {
-    "Number": 149,
+    "id": 149,
     "Pokemon": "Dragonite",
-    "Type 1": "Dragon",
-    "Type 2": "Flying",
+    "Type1": "Dragon",
+    "Type2": "Flying",
     "Price": 91,
     "Attack": 134,
     "Defense": 95,
@@ -2086,10 +2086,10 @@
     "Description": "An extremely rarely seen marine Pokemon. Its intelligence is said to match that of humans."
   },
   {
-    "Number": 150,
+    "id": 150,
     "Pokemon": "Mewtwo",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 106,
     "Attack": 110,
     "Defense": 90,
@@ -2100,10 +2100,10 @@
     "Description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments."
   },
   {
-    "Number": 151,
+    "id": 151,
     "Pokemon": "Mew",
-    "Type 1": "Psychic",
-    "Type 2": "",
+    "Type1": "Psychic",
+    "Type2": "",
     "Price": 100,
     "Attack": 100,
     "Defense": 100,
