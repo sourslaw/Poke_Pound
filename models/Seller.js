@@ -35,6 +35,15 @@ Seller.init(
         len: [8],
       },
     },
+    wallet: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        min: 100,
+        max: 1000,
+        isNumeric: true
+      }
+    }
   },
   {
     hooks: {
