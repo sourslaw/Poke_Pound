@@ -1,0 +1,1512 @@
+[
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "price": 45,
+      "attack": 49,
+      "defense": 49,
+      "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+      "pokemon_id": 1,
+      "seller_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "price": 60,
+      "attack": 62,
+      "defense": 63,
+      "description": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+      "pokemon_id": 2,
+      "seller_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "price": 80,
+      "attack": 82,
+      "defense": 83,
+      "description": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+      "pokemon_id": 3,
+      "seller_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "price": 39,
+      "attack": 52,
+      "defense": 43,
+      "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+      "pokemon_id": 4,
+      "seller_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "price": 58,
+      "attack": 64,
+      "defense": 58,
+      "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+      "pokemon_id": 5,
+      "seller_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "price": 78,
+      "attack": 84,
+      "defense": 78,
+      "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+      "pokemon_id": 6,
+      "seller_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "price": 44,
+      "attack": 48,
+      "defense": 65,
+      "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+      "pokemon_id": 7,
+      "seller_id": 1
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "price": 59,
+      "attack": 63,
+      "defense": 80,
+      "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+      "pokemon_id": 8,
+      "seller_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "price": 79,
+      "attack": 83,
+      "defense": 100,
+      "description": "A brutal Pokemon with pressurized water jets on its shell. They are used for high speed tackles.",
+      "pokemon_id": 9,
+      "seller_id": 1
+    },
+    {
+      "id": 10,
+      "name": "Caterpie",
+      "price": 45,
+      "attack": 30,
+      "defense": 35,
+      "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+      "pokemon_id": 10,
+      "seller_id": 1
+    },
+    {
+      "id": 11,
+      "name": "Metapod",
+      "price": 50,
+      "attack": 20,
+      "defense": 55,
+      "description": "This Pokemon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "pokemon_id": 11,
+      "seller_id": 1
+    },
+    {
+      "id": 12,
+      "name": "Butterfree",
+      "price": 60,
+      "attack": 45,
+      "defense": 50,
+      "description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+      "pokemon_id": 12,
+      "seller_id": 1
+    },
+    {
+      "id": 13,
+      "name": "Weedle",
+      "price": 40,
+      "attack": 35,
+      "defense": 30,
+      "description": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+      "pokemon_id": 13,
+      "seller_id": 1
+    },
+    {
+      "id": 14,
+      "name": "Kakuna",
+      "price": 45,
+      "attack": 25,
+      "defense": 50,
+      "description": "Almost incapable of moving, this Pokemon can only harden its shell to protect itself from predators.",
+      "pokemon_id": 14,
+      "seller_id": 1
+    },
+    {
+      "id": 15,
+      "name": "Beedrill",
+      "price": 65,
+      "attack": 80,
+      "defense": 40,
+      "description": "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
+      "pokemon_id": 15,
+      "seller_id": 1
+    },
+    {
+      "id": 16,
+      "name": "Pidgey",
+      "price": 40,
+      "attack": 45,
+      "defense": 40,
+      "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "pokemon_id": 16,
+      "seller_id": 1
+    },
+    {
+      "id": 17,
+      "name": "Pidgeotto",
+      "price": 63,
+      "attack": 60,
+      "defense": 55,
+      "description": "Very protective of its sprawling territorial area, this Pokemon will fiercely peck at any intruder.",
+      "pokemon_id": 17,
+      "seller_id": 1
+    },
+    {
+      "id": 18,
+      "name": "Pidgeot",
+      "price": 83,
+      "attack": 80,
+      "defense": 75,
+      "description": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+      "pokemon_id": 18,
+      "seller_id": 1
+    },
+    {
+      "id": 19,
+      "name": "Rattata",
+      "price": 30,
+      "attack": 56,
+      "defense": 35,
+      "description": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+      "pokemon_id": 19,
+      "seller_id": 1
+    },
+    {
+      "id": 20,
+      "name": "Raticate",
+      "price": 55,
+      "attack": 81,
+      "defense": 60,
+      "description": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
+      "pokemon_id": 20,
+      "seller_id": 1
+    },
+    {
+      "id": 21,
+      "name": "Spearow",
+      "price": 40,
+      "attack": 60,
+      "defense": 30,
+      "description": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+      "pokemon_id": 21,
+      "seller_id": 1
+    },
+    {
+      "id": 22,
+      "name": "Fearow",
+      "price": 65,
+      "attack": 90,
+      "defense": 65,
+      "description": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+      "pokemon_id": 22,
+      "seller_id": 1
+    },
+    {
+      "id": 23,
+      "name": "Ekans",
+      "price": 35,
+      "attack": 60,
+      "defense": 44,
+      "description": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+      "pokemon_id": 23,
+      "seller_id": 1
+    },
+    {
+      "id": 24,
+      "name": "Arbok",
+      "price": 60,
+      "attack": 85,
+      "defense": 69,
+      "description": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+      "pokemon_id": 24,
+      "seller_id": 1
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "price": 35,
+      "attack": 55,
+      "defense": 30,
+      "description": "When several of these Pokemon gather, their electricity could build and cause lightning storms.",
+      "pokemon_id": 25,
+      "seller_id": 1
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "price": 60,
+      "attack": 90,
+      "defense": 55,
+      "description": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+      "pokemon_id": 26,
+      "seller_id": 1
+    },
+    {
+      "id": 27,
+      "name": "Sandshrew",
+      "price": 50,
+      "attack": 75,
+      "defense": 85,
+      "description": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+      "pokemon_id": 27,
+      "seller_id": 1
+    },
+    {
+      "id": 28,
+      "name": "Sandslash",
+      "price": 75,
+      "attack": 100,
+      "defense": 110,
+      "description": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+      "pokemon_id": 28,
+      "seller_id": 1
+    },
+    {
+      "id": 29,
+      "name": "NidoranF",
+      "price": 55,
+      "attack": 47,
+      "defense": 52,
+      "description": "Although small, its venomous barbs render this Pokemon dangerous. The female has smaller horns.",
+      "pokemon_id": 29,
+      "seller_id": 1
+    },
+    {
+      "id": 30,
+      "name": "Nidorina",
+      "price": 70,
+      "attack": 62,
+      "defense": 67,
+      "description": "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+      "pokemon_id": 30,
+      "seller_id": 1
+    },
+    {
+      "id": 31,
+      "name": "Nidoqueen",
+      "price": 90,
+      "attack": 82,
+      "defense": 87,
+      "description": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+      "pokemon_id": 31,
+      "seller_id": 1
+    },
+    {
+      "id": 32,
+      "name": "NidoranM",
+      "price": 46,
+      "attack": 57,
+      "defense": 40,
+      "description": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+      "pokemon_id": 32,
+      "seller_id": 1
+    },
+    {
+      "id": 33,
+      "name": "Nidorino",
+      "price": 61,
+      "attack": 72,
+      "defense": 57,
+      "description": "An aggressive Pokemon that is quick to attack. The horn on its head secretes a powerful venom.",
+      "pokemon_id": 33,
+      "seller_id": 1
+    },
+    {
+      "id": 34,
+      "name": "Nidoking",
+      "price": 81,
+      "attack": 92,
+      "defense": 77,
+      "description": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+      "pokemon_id": 34,
+      "seller_id": 1
+    },
+    {
+      "id": 35,
+      "name": "Clefairy",
+      "price": 70,
+      "attack": 45,
+      "defense": 48,
+      "description": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+      "pokemon_id": 35,
+      "seller_id": 1
+    },
+    {
+      "id": 36,
+      "name": "Clefable",
+      "price": 95,
+      "attack": 70,
+      "defense": 73,
+      "description": "A timid fairy Pokemon that is rarely seen. It will run and hide the moment it senses people.",
+      "pokemon_id": 36,
+      "seller_id": 1
+    },
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "price": 38,
+      "attack": 41,
+      "defense": 40,
+      "description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+      "pokemon_id": 37,
+      "seller_id": 1
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "price": 73,
+      "attack": 76,
+      "defense": 75,
+      "description": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+      "pokemon_id": 38,
+      "seller_id": 1
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "price": 115,
+      "attack": 45,
+      "defense": 20,
+      "description": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+      "pokemon_id": 39,
+      "seller_id": 1
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "price": 140,
+      "attack": 70,
+      "defense": 45,
+      "description": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+      "pokemon_id": 40,
+      "seller_id": 1
+    },
+    {
+      "id": 41,
+      "name": "Zubat",
+      "price": 40,
+      "attack": 45,
+      "defense": 35,
+      "description": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
+      "pokemon_id": 41,
+      "seller_id": 1
+    },
+    {
+      "id": 42,
+      "name": "Golbat",
+      "price": 75,
+      "attack": 80,
+      "defense": 70,
+      "description": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+      "pokemon_id": 42,
+      "seller_id": 1
+    },
+    {
+      "id": 43,
+      "name": "Oddish",
+      "price": 45,
+      "attack": 50,
+      "defense": 55,
+      "description": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+      "pokemon_id": 43,
+      "seller_id": 1
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "price": 60,
+      "attack": 65,
+      "defense": 70,
+      "description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+      "pokemon_id": 44,
+      "seller_id": 1
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "price": 75,
+      "attack": 80,
+      "defense": 85,
+      "description": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+      "pokemon_id": 45,
+      "seller_id": 1
+    },
+    {
+      "id": 46,
+      "name": "Paras",
+      "price": 35,
+      "attack": 70,
+      "defense": 55,
+      "description": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+      "pokemon_id": 46,
+      "seller_id": 1
+    },
+    {
+      "id": 47,
+      "name": "Parasect",
+      "price": 60,
+      "attack": 95,
+      "defense": 80,
+      "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "pokemon_id": 47,
+      "seller_id": 1
+    },
+    {
+      "id": 48,
+      "name": "Venonat",
+      "price": 60,
+      "attack": 55,
+      "defense": 50,
+      "description": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+      "pokemon_id": 48,
+      "seller_id": 1
+    },
+    {
+      "id": 49,
+      "name": "Venomoth",
+      "price": 70,
+      "attack": 65,
+      "defense": 60,
+      "description": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+      "pokemon_id": 49,
+      "seller_id": 1
+    },
+    {
+      "id": 50,
+      "name": "Diglett",
+      "price": 10,
+      "attack": 55,
+      "defense": 25,
+      "description": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+      "pokemon_id": 50,
+      "seller_id": 1
+    },
+    {
+      "id": 51,
+      "name": "Dugtrio",
+      "price": 35,
+      "attack": 80,
+      "defense": 50,
+      "description": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+      "pokemon_id": 51,
+      "seller_id": 1
+    },
+    {
+      "id": 52,
+      "name": "Meowth",
+      "price": 40,
+      "attack": 45,
+      "defense": 35,
+      "description": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+      "pokemon_id": 52,
+      "seller_id": 1
+    },
+    {
+      "id": 53,
+      "name": "Persian",
+      "price": 65,
+      "attack": 70,
+      "defense": 60,
+      "description": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+      "pokemon_id": 53,
+      "seller_id": 1
+    },
+    {
+      "id": 54,
+      "name": "Psyduck",
+      "price": 50,
+      "attack": 52,
+      "defense": 48,
+      "description": "While lulling its enemies with its vacant look, this wily Pokemon will use psychokinetic powers.",
+      "pokemon_id": 54,
+      "seller_id": 1
+    },
+    {
+      "id": 55,
+      "name": "Golduck",
+      "price": 80,
+      "attack": 82,
+      "defense": 78,
+      "description": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+      "pokemon_id": 55,
+      "seller_id": 1
+    },
+    {
+      "id": 56,
+      "name": "Mankey",
+      "price": 40,
+      "attack": 80,
+      "defense": 35,
+      "description": "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
+      "pokemon_id": 56,
+      "seller_id": 1
+    },
+    {
+      "id": 57,
+      "name": "Primeape",
+      "price": 65,
+      "attack": 105,
+      "defense": 60,
+      "description": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
+      "pokemon_id": 57,
+      "seller_id": 1
+    },
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "price": 55,
+      "attack": 70,
+      "defense": 45,
+      "description": "Very protective of its territory. It will bark and bite to repel intruders from its space.",
+      "pokemon_id": 58,
+      "seller_id": 1
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "price": 90,
+      "attack": 110,
+      "defense": 80,
+      "description": "A Pokemon that has been admired since the past for its beauty. It runs agilely as if on wings.",
+      "pokemon_id": 59,
+      "seller_id": 1
+    },
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "price": 40,
+      "attack": 50,
+      "defense": 40,
+      "description": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+      "pokemon_id": 60,
+      "seller_id": 1
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "price": 65,
+      "attack": 65,
+      "defense": 65,
+      "description": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+      "pokemon_id": 61,
+      "seller_id": 1
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "price": 90,
+      "attack": 85,
+      "defense": 95,
+      "description": "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
+      "pokemon_id": 62,
+      "seller_id": 1
+    },
+    {
+      "id": 63,
+      "name": "Abra",
+      "price": 25,
+      "attack": 20,
+      "defense": 15,
+      "description": "Using its ability to read minds, it will identify impending danger and TELEPORT to safety.",
+      "pokemon_id": 63,
+      "seller_id": 1
+    },
+    {
+      "id": 64,
+      "name": "Kadabra",
+      "price": 40,
+      "attack": 35,
+      "defense": 30,
+      "description": "It emits special alpha waves from its body that induce headaches just by being close by.",
+      "pokemon_id": 64,
+      "seller_id": 1
+    },
+    {
+      "id": 65,
+      "name": "Alakazam",
+      "price": 55,
+      "attack": 50,
+      "defense": 45,
+      "description": "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000.",
+      "pokemon_id": 65,
+      "seller_id": 1
+    },
+    {
+      "id": 66,
+      "name": "Machop",
+      "price": 70,
+      "attack": 80,
+      "defense": 50,
+      "description": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+      "pokemon_id": 66,
+      "seller_id": 1
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "price": 80,
+      "attack": 100,
+      "defense": 70,
+      "description": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
+      "pokemon_id": 67,
+      "seller_id": 1
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "price": 90,
+      "attack": 130,
+      "defense": 80,
+      "description": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+      "pokemon_id": 68,
+      "seller_id": 1
+    },
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "price": 50,
+      "attack": 75,
+      "defense": 35,
+      "description": "A carnivorous Pokemon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+      "pokemon_id": 69,
+      "seller_id": 1
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "price": 65,
+      "attack": 90,
+      "defense": 50,
+      "description": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+      "pokemon_id": 70,
+      "seller_id": 1
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "price": 80,
+      "attack": 105,
+      "defense": 65,
+      "description": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+      "pokemon_id": 71,
+      "seller_id": 1
+    },
+    {
+      "id": 72,
+      "name": "Tentacool",
+      "price": 40,
+      "attack": 40,
+      "defense": 35,
+      "description": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
+      "pokemon_id": 72,
+      "seller_id": 1
+    },
+    {
+      "id": 73,
+      "name": "Tentacruel",
+      "price": 80,
+      "attack": 70,
+      "defense": 65,
+      "description": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+      "pokemon_id": 73,
+      "seller_id": 1
+    },
+    {
+      "id": 74,
+      "name": "Geodude",
+      "price": 40,
+      "attack": 80,
+      "defense": 100,
+      "description": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+      "pokemon_id": 74,
+      "seller_id": 1
+    },
+    {
+      "id": 75,
+      "name": "Graveler",
+      "price": 55,
+      "attack": 95,
+      "defense": 115,
+      "description": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+      "pokemon_id": 75,
+      "seller_id": 1
+    },
+    {
+      "id": 76,
+      "name": "Golem",
+      "price": 80,
+      "attack": 110,
+      "defense": 130,
+      "description": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+      "pokemon_id": 76,
+      "seller_id": 1
+    },
+    {
+      "id": 77,
+      "name": "Ponyta",
+      "price": 50,
+      "attack": 85,
+      "defense": 55,
+      "description": "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
+      "pokemon_id": 77,
+      "seller_id": 1
+    },
+    {
+      "id": 78,
+      "name": "Rapidash",
+      "price": 65,
+      "attack": 100,
+      "defense": 70,
+      "description": "Very competitive, this Pokemon will chase anything that moves fast in the hopes of racing it.",
+      "pokemon_id": 78,
+      "seller_id": 1
+    },
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "price": 90,
+      "attack": 65,
+      "defense": 65,
+      "description": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+      "pokemon_id": 79,
+      "seller_id": 1
+    },
+    {
+      "id": 80,
+      "name": "Slowbro",
+      "price": 95,
+      "attack": 75,
+      "defense": 110,
+      "description": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+      "pokemon_id": 80,
+      "seller_id": 1
+    },
+    {
+      "id": 81,
+      "name": "Magnemite",
+      "price": 25,
+      "attack": 35,
+      "defense": 70,
+      "description": "Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.",
+      "pokemon_id": 81,
+      "seller_id": 1
+    },
+    {
+      "id": 82,
+      "name": "Magneton",
+      "price": 50,
+      "attack": 60,
+      "defense": 95,
+      "description": "Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.",
+      "pokemon_id": 82,
+      "seller_id": 1
+    },
+    {
+      "id": 83,
+      "name": "Farfetch'd",
+      "price": 52,
+      "attack": 65,
+      "defense": 55,
+      "description": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+      "pokemon_id": 83,
+      "seller_id": 1
+    },
+    {
+      "id": 84,
+      "name": "Doduo",
+      "price": 35,
+      "attack": 85,
+      "defense": 45,
+      "description": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+      "pokemon_id": 84,
+      "seller_id": 1
+    },
+    {
+      "id": 85,
+      "name": "Dodrio",
+      "price": 60,
+      "attack": 110,
+      "defense": 70,
+      "description": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+      "pokemon_id": 85,
+      "seller_id": 1
+    },
+    {
+      "id": 86,
+      "name": "Seel",
+      "price": 65,
+      "attack": 45,
+      "defense": 55,
+      "description": "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
+      "pokemon_id": 86,
+      "seller_id": 1
+    },
+    {
+      "id": 87,
+      "name": "Dewgong",
+      "price": 90,
+      "attack": 70,
+      "defense": 80,
+      "description": "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
+      "pokemon_id": 87,
+      "seller_id": 1
+    },
+    {
+      "id": 88,
+      "name": "Grimer",
+      "price": 80,
+      "attack": 80,
+      "defense": 50,
+      "description": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+      "pokemon_id": 88,
+      "seller_id": 1
+    },
+    {
+      "id": 89,
+      "name": "Muk",
+      "price": 105,
+      "attack": 105,
+      "defense": 75,
+      "description": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "pokemon_id": 89,
+      "seller_id": 1
+    },
+    {
+      "id": 90,
+      "name": "Shellder",
+      "price": 30,
+      "attack": 65,
+      "defense": 100,
+      "description": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+      "pokemon_id": 90,
+      "seller_id": 1
+    },
+    {
+      "id": 91,
+      "name": "Cloyster",
+      "price": 50,
+      "attack": 95,
+      "defense": 180,
+      "description": "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
+      "pokemon_id": 91,
+      "seller_id": 1
+    },
+    {
+      "id": 92,
+      "name": "Gastly",
+      "price": 30,
+      "attack": 35,
+      "defense": 30,
+      "description": "Almost invisible, this gaseous Pokemon cloaks the target and puts it to sleep without notice.",
+      "pokemon_id": 92,
+      "seller_id": 1
+    },
+    {
+      "id": 93,
+      "name": "Haunter",
+      "price": 45,
+      "attack": 50,
+      "defense": 45,
+      "description": "Because of its ability to slip through block walls, it is said to be from another dimension.",
+      "pokemon_id": 93,
+      "seller_id": 1
+    },
+    {
+      "id": 94,
+      "name": "Gengar",
+      "price": 60,
+      "attack": 65,
+      "defense": 60,
+      "description": "Under a full moon, this Pokemon likes to mimic the shadows of people and laugh at their fright.",
+      "pokemon_id": 94,
+      "seller_id": 1
+    },
+    {
+      "id": 95,
+      "name": "Onix",
+      "price": 35,
+      "attack": 45,
+      "defense": 160,
+      "description": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
+      "pokemon_id": 95,
+      "seller_id": 1
+    },
+    {
+      "id": 96,
+      "name": "Drowzee",
+      "price": 60,
+      "attack": 48,
+      "defense": 45,
+      "description": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
+      "pokemon_id": 96,
+      "seller_id": 1
+    },
+    {
+      "id": 97,
+      "name": "Hypno",
+      "price": 85,
+      "attack": 73,
+      "defense": 70,
+      "description": "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",
+      "pokemon_id": 97,
+      "seller_id": 1
+    },
+    {
+      "id": 98,
+      "name": "Krabby",
+      "price": 30,
+      "attack": 105,
+      "defense": 90,
+      "description": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+      "pokemon_id": 98,
+      "seller_id": 1
+    },
+    {
+      "id": 99,
+      "name": "Kingler",
+      "price": 55,
+      "attack": 130,
+      "defense": 115,
+      "description": "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",
+      "pokemon_id": 99,
+      "seller_id": 1
+    },
+    {
+      "id": 100,
+      "name": "Voltorb",
+      "price": 40,
+      "attack": 30,
+      "defense": 50,
+      "description": "Usually found in power plants. Easily mistaken for a Pokeball, they have zapped many people.",
+      "pokemon_id": 100,
+      "seller_id": 1
+    },
+    {
+      "id": 101,
+      "name": "Electrode",
+      "price": 60,
+      "attack": 50,
+      "defense": 70,
+      "description": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+      "pokemon_id": 101,
+      "seller_id": 1
+    },
+    {
+      "id": 102,
+      "name": "Exeggcute",
+      "price": 60,
+      "attack": 40,
+      "defense": 80,
+      "description": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+      "pokemon_id": 102,
+      "seller_id": 1
+    },
+    {
+      "id": 103,
+      "name": "Exeggutor",
+      "price": 95,
+      "attack": 95,
+      "defense": 85,
+      "description": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+      "pokemon_id": 103,
+      "seller_id": 1
+    },
+    {
+      "id": 104,
+      "name": "Cubone",
+      "price": 50,
+      "attack": 50,
+      "defense": 95,
+      "description": "Because it never removes its skull helmet, no one has ever seen this Pokemon's real face.",
+      "pokemon_id": 104,
+      "seller_id": 1
+    },
+    {
+      "id": 105,
+      "name": "Marowak",
+      "price": 60,
+      "attack": 80,
+      "defense": 110,
+      "description": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "pokemon_id": 105,
+      "seller_id": 1
+    },
+    {
+      "id": 106,
+      "name": "Hitmonlee",
+      "price": 50,
+      "attack": 120,
+      "defense": 53,
+      "description": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+      "pokemon_id": 106,
+      "seller_id": 1
+    },
+    {
+      "id": 107,
+      "name": "Hitmonchan",
+      "price": 50,
+      "attack": 105,
+      "defense": 79,
+      "description": "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
+      "pokemon_id": 107,
+      "seller_id": 1
+    },
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "price": 90,
+      "attack": 55,
+      "defense": 75,
+      "description": "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
+      "pokemon_id": 108,
+      "seller_id": 1
+    },
+    {
+      "id": 109,
+      "name": "Koffing",
+      "price": 40,
+      "attack": 65,
+      "defense": 95,
+      "description": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+      "pokemon_id": 109,
+      "seller_id": 1
+    },
+    {
+      "id": 110,
+      "name": "Weezing",
+      "price": 65,
+      "attack": 90,
+      "defense": 120,
+      "description": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
+      "pokemon_id": 110,
+      "seller_id": 1
+    },
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "price": 80,
+      "attack": 85,
+      "defense": 95,
+      "description": "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
+      "pokemon_id": 111,
+      "seller_id": 1
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "price": 105,
+      "attack": 130,
+      "defense": 120,
+      "description": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+      "pokemon_id": 112,
+      "seller_id": 1
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "price": 250,
+      "attack": 5,
+      "defense": 5,
+      "description": "A rare and elusive Pokemon that is said to bring happiness to those who manage to get it.",
+      "pokemon_id": 113,
+      "seller_id": 1
+    },
+    {
+      "id": 114,
+      "name": "Tangela",
+      "price": 65,
+      "attack": 55,
+      "defense": 115,
+      "description": "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.",
+      "pokemon_id": 114,
+      "seller_id": 1
+    },
+    {
+      "id": 115,
+      "name": "Kangaskhan",
+      "price": 105,
+      "attack": 95,
+      "defense": 80,
+      "description": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
+      "pokemon_id": 115,
+      "seller_id": 1
+    },
+    {
+      "id": 116,
+      "name": "Horsea",
+      "price": 30,
+      "attack": 40,
+      "defense": 70,
+      "description": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+      "pokemon_id": 116,
+      "seller_id": 1
+    },
+    {
+      "id": 117,
+      "name": "Seadra",
+      "price": 55,
+      "attack": 65,
+      "defense": 95,
+      "description": "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+      "pokemon_id": 117,
+      "seller_id": 1
+    },
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "price": 45,
+      "attack": 67,
+      "defense": 60,
+      "description": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
+      "pokemon_id": 118,
+      "seller_id": 1
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "price": 80,
+      "attack": 92,
+      "defense": 65,
+      "description": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+      "pokemon_id": 119,
+      "seller_id": 1
+    },
+    {
+      "id": 120,
+      "name": "Staryu",
+      "price": 30,
+      "attack": 45,
+      "defense": 55,
+      "description": "An enigmatic Pokemon that can effortlessly regenerate any appendage it loses in battle.",
+      "pokemon_id": 120,
+      "seller_id": 1
+    },
+    {
+      "id": 121,
+      "name": "Starmie",
+      "price": 60,
+      "attack": 75,
+      "defense": 85,
+      "description": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+      "pokemon_id": 121,
+      "seller_id": 1
+    },
+    {
+      "id": 122,
+      "name": "Mr. Mime",
+      "price": 40,
+      "attack": 45,
+      "defense": 65,
+      "description": "If interrupted while it is miming, it will slap around the offender with its broad hands.",
+      "pokemon_id": 122,
+      "seller_id": 1
+    },
+    {
+      "id": 123,
+      "name": "Scyther",
+      "price": 70,
+      "attack": 110,
+      "defense": 80,
+      "description": "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+      "pokemon_id": 123,
+      "seller_id": 1
+    },
+    {
+      "id": 124,
+      "name": "Jynx",
+      "price": 65,
+      "attack": 50,
+      "defense": 35,
+      "description": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
+      "pokemon_id": 124,
+      "seller_id": 1
+    },
+    {
+      "id": 125,
+      "name": "Electabuzz",
+      "price": 65,
+      "attack": 83,
+      "defense": 57,
+      "description": "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+      "pokemon_id": 125,
+      "seller_id": 1
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "price": 65,
+      "attack": 95,
+      "defense": 57,
+      "description": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+      "pokemon_id": 126,
+      "seller_id": 1
+    },
+    {
+      "id": 127,
+      "name": "Pinsir",
+      "price": 65,
+      "attack": 125,
+      "defense": 100,
+      "description": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
+      "pokemon_id": 127,
+      "seller_id": 1
+    },
+    {
+      "id": 128,
+      "name": "Tauros",
+      "price": 75,
+      "attack": 100,
+      "defense": 95,
+      "description": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+      "pokemon_id": 128,
+      "seller_id": 1
+    },
+    {
+      "id": 129,
+      "name": "Magikarp",
+      "price": 20,
+      "attack": 10,
+      "defense": 55,
+      "description": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+      "pokemon_id": 129,
+      "seller_id": 1
+    },
+    {
+      "id": 130,
+      "name": "Gyarados",
+      "price": 95,
+      "attack": 125,
+      "defense": 79,
+      "description": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+      "pokemon_id": 130,
+      "seller_id": 1
+    },
+    {
+      "id": 131,
+      "name": "Lapras",
+      "price": 130,
+      "attack": 85,
+      "defense": 80,
+      "description": "A Pokemon that has been overhunted almost to extinction. It can ferry people across the water.",
+      "pokemon_id": 131,
+      "seller_id": 1
+    },
+    {
+      "id": 132,
+      "name": "Ditto",
+      "price": 48,
+      "attack": 48,
+      "defense": 48,
+      "description": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+      "pokemon_id": 132,
+      "seller_id": 1
+    },
+    {
+      "id": 133,
+      "name": "Eevee",
+      "price": 55,
+      "attack": 55,
+      "defense": 50,
+      "description": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.",
+      "pokemon_id": 133,
+      "seller_id": 1
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "price": 130,
+      "attack": 65,
+      "defense": 60,
+      "description": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+      "pokemon_id": 134,
+      "seller_id": 1
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "price": 65,
+      "attack": 65,
+      "defense": 60,
+      "description": "It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts.",
+      "pokemon_id": 135,
+      "seller_id": 1
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "price": 65,
+      "attack": 130,
+      "defense": 60,
+      "description": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+      "pokemon_id": 136,
+      "seller_id": 1
+    },
+    {
+      "id": 137,
+      "name": "Porygon",
+      "price": 65,
+      "attack": 60,
+      "defense": 70,
+      "description": "A Pokemon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+      "pokemon_id": 137,
+      "seller_id": 1
+    },
+    {
+      "id": 138,
+      "name": "Omanyte",
+      "price": 35,
+      "attack": 40,
+      "defense": 100,
+      "description": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+      "pokemon_id": 138,
+      "seller_id": 1
+    },
+    {
+      "id": 139,
+      "name": "Omastar",
+      "price": 70,
+      "attack": 60,
+      "defense": 125,
+      "description": "A prehistoric Pokemon that died out when its heavy shell made it impossible to catch prey.",
+      "pokemon_id": 139,
+      "seller_id": 1
+    },
+    {
+      "id": 140,
+      "name": "Kabuto",
+      "price": 30,
+      "attack": 80,
+      "defense": 90,
+      "description": "A Pokemon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+      "pokemon_id": 140,
+      "seller_id": 1
+    },
+    {
+      "id": 141,
+      "name": "Kabutops",
+      "price": 60,
+      "attack": 115,
+      "defense": 105,
+      "description": "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
+      "pokemon_id": 141,
+      "seller_id": 1
+    },
+    {
+      "id": 142,
+      "name": "Aerodactyl",
+      "price": 80,
+      "attack": 105,
+      "defense": 65,
+      "description": "A ferocious, prehistoric Pokemon that goes for the enemy's throat with its serrated saw-like fangs.",
+      "pokemon_id": 142,
+      "seller_id": 1
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "price": 160,
+      "attack": 110,
+      "defense": 65,
+      "description": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+      "pokemon_id": 143,
+      "seller_id": 1
+    },
+    {
+      "id": 144,
+      "name": "Articuno",
+      "price": 90,
+      "attack": 85,
+      "defense": 100,
+      "description": "A legendary bird Pokemon that is said to appear to doomed people who are lost in icy mountains.",
+      "pokemon_id": 144,
+      "seller_id": 1
+    },
+    {
+      "id": 145,
+      "name": "Zapdos",
+      "price": 90,
+      "attack": 90,
+      "defense": 85,
+      "description": "A legendary bird Pokemon that is said to appear from clouds while dropping enormous lightning bolts.",
+      "pokemon_id": 145,
+      "seller_id": 1
+    },
+    {
+      "id": 146,
+      "name": "Moltres",
+      "price": 90,
+      "attack": 100,
+      "defense": 90,
+      "description": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+      "pokemon_id": 146,
+      "seller_id": 1
+    },
+    {
+      "id": 147,
+      "name": "Dratini",
+      "price": 41,
+      "attack": 64,
+      "defense": 45,
+      "description": "Long considered a mythical Pokemon until recently when a small colony was found living underwater.",
+      "pokemon_id": 147,
+      "seller_id": 1
+    },
+    {
+      "id": 148,
+      "name": "Dragonair",
+      "price": 61,
+      "attack": 84,
+      "defense": 65,
+      "description": "A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions.",
+      "pokemon_id": 148,
+      "seller_id": 1
+    },
+    {
+      "id": 149,
+      "name": "Dragonite",
+      "price": 91,
+      "attack": 134,
+      "defense": 95,
+      "description": "An extremely rarely seen marine Pokemon. Its intelligence is said to match that of humans.",
+      "pokemon_id": 149,
+      "seller_id": 1
+    },
+    {
+      "id": 150,
+      "name": "Mewtwo",
+      "price": 106,
+      "attack": 110,
+      "defense": 90,
+      "description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
+      "pokemon_id": 150,
+      "seller_id": 1
+    },
+    {
+      "id": 151,
+      "name": "Mew",
+      "price": 100,
+      "attack": 100,
+      "defense": 100,
+      "description": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+      "pokemon_id": 151,
+      "seller_id": 1
+    }
+  ]
