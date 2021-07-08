@@ -3,67 +3,64 @@ const sequelize = require('../config/connection');
 
 class Pokemon extends Model {}
 
-Pokemon.init({
+Pokemon.init(
+  {
     id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true,
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      // autoIncrement: true,
     },
-    Pokemon: {
-        type: DataTypes.STRING,
-        allowNull: false,
+    pokemon: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    Type1: {
-        type: DataTypes.STRING,
+    type1: {
+      type: DataTypes.STRING,
     },
-    Type2: {
-        type: DataTypes.STRING,
+    type2: {
+      type: DataTypes.STRING,
     },
-    Price: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+    price: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
-    Attack: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+    attack: {
+      type: DataTypes.INTEGER,
     },
-    Defense: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+    defense: {
+      type: DataTypes.INTEGER,
     },
-    Speed: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+    seed: {
+      type: DataTypes.INTEGER,
     },
-    Special: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+    special: {
+      type: DataTypes.INTEGER,
     },
-    GIF: {
-        type: DataTypes.STRING,
-        allowNull: false,
+    gif: {
+      type: DataTypes.STRING,
     },
-    PNG: {
-        type: DataTypes.STRING,
-        allowNull: false,
+    png: {
+      type: DataTypes.STRING,
     },
-    Description: {
-        type: DataTypes.STRING,
-        allowNull: false,
+    description: {
+      type: DataTypes.TEXT,
     },
-    user_id: {
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'user',
-            key: 'id',
-        },
+    seller_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'seller',
+        key: 'id',
+      },
     },
-}, {
+  },
+  {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'pokemon',
-});
+  }
+);
 
 module.exports = Pokemon;

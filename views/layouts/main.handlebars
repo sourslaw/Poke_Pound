@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>poke seller</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+<body>
+{{!-- login modal: will go into a partial--}}
+{{!-- <div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+
+        <div class="card" id="loginCard">
+        <h1 class="page-title">Login</h1>
+
+        <form class="form login-form">
+            <label class="label">Name</label>
+            <input class="input is-medium" type="text" placeholder="enter your login name . . ." id="email-login">
+
+            <label class="label">Password</label>
+            <input class="input is-medium" type="text" placeholder="enter your password . . ." id="password-login">
+
+            <div class="columns" id="loginButtons">
+                <div class="column">
+                    <div class="columns">
+                        <div class="control">
+                            <button class="button is-link">Submit</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-link is-light" id="modalClose">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+        </div>
+
+    </div>
+    <button class="modal-close is-large" aria-label="modalClose" id="modalClose"></button>
+</div> --}}
+{{!-- end modal --}}
+{{> modal-login}}
+{{> modal-signup }}
+
+
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">
+                    Home
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="/login" id="signInButton">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light" href="" id="logInButton">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main>
+        <div class="body">
+
+            {{{body}}}
+
+        </div>
+    </main>
+        
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/js/logout.js"></script>
+    <script src="/js/login.js"></script>
+
+    
+</body>
+</html>
