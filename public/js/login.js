@@ -23,7 +23,11 @@ const modalCloseEl = document.getElementById('modalSignClose');
 modalCloseEl.addEventListener('click', function() {
   modalSignLog.classList.remove('is-active');
 });
-
+// modal close (X). . .
+const modalClose = document.getElementById('modalClose');
+modalClose.addEventListener('click', function() {
+  location.reload();
+});
 
 
 // login form
