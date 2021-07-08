@@ -1,0 +1,46 @@
+{{#each pokemons as |pokemon|}}
+    {{!-- bulma card --}}
+    <div class="card" id="pokeCard__main">  
+
+        {{!-- bulma card content --}}
+        <div class="card-content">
+
+            <div class="pokeCard__image-container">
+                <img src="{{ pokemon.gif }}" alt="" class="card__image" id="pokeCard_image">   
+            </div>
+        
+            <div class="pokeCard__caption">
+                <h1 class="pokeCard__name">{{ pokemon.pokemon }}</h1>
+                <h3 class="pokeCard__type">{{ pokemon.type1 }}</h3>
+
+                <ul class="pokeCard__stats">
+                    <li>
+                        <p id="pokeCardStatPara">Attack   {{ pokemon.attack }}</p>
+                    </li>
+                    <li>
+                        <p id="pokeCardStatPara">Defense  {{ pokemon.defense }}</p>
+                    </li>
+                    <li>
+                        <p id="pokeCard__price">Price  $ {{ pokemon.price }}</p>
+                    </li>
+                    <li>
+                        <h5>Special Notes:</h5>
+                        <p id="pokeCard__note">{{ pokemon.description }}</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        {{!-- bulma card footer --}}
+        <div class="card-footer" id="pokeCard-footer">
+            <p class="card-footer-item">
+                {{!-- <span> --}}
+                    <button class="button is-fullwidth" id="pokeCardBuyButt"><a href="#">Buy</a></button>
+                {{!-- </span> --}}
+            </p>
+        </div>
+
+    </div>
+{{/each}}

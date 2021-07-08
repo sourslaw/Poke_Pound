@@ -69,12 +69,8 @@
     display: block;
     margin-bottom: 3px;
 }
-#pokeCard_note {
-    font-size: .95vw;
-    margin-bottom: 10px;
-}
 
-.pokeCard__stats {
+/* .pokeCard__stats {
     margin: 1em 0;
 
     th {
@@ -88,6 +84,32 @@
     width: 50%;
     padding: 0.25em 0.5em 0;
     }
+
+    h5 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+} */
+#pokeCardStatPara {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+/* #pokeCard__stats {
+    font-size: 20px;
+} */
+#pokeCard__price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+#pokeCard__note {
+    font-size: .95vw;
+    margin-bottom: 10px;
 }
 
 .pokeCard__type {
@@ -133,3 +155,7 @@
 }
   
 /* end pokemon cards css */
+
+ul {
+    list-style-type: none;
+}
