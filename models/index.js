@@ -1,15 +1,15 @@
-const Seller = require('./Seller');
+const User = require('./User');
 const Pokemon = require('./Pokemon');
 const Sale = require('./Sale');
 
 
-Seller.hasMany(Sale, {
-  foreignKey: 'seller_id',
+User.hasMany(Sale, {
+  foreignKey: 'user_id',
   // onDelete: 'CASCADE'
 });
 
-Sale.belongsTo(Seller, {
-  foreignKey: 'seller_id'
+Sale.belongsTo(User, {
+  foreignKey: 'user_id'
 });
 
 Pokemon.hasMany(Sale, {
@@ -20,17 +20,17 @@ Sale.belongsTo(Pokemon, {
   foreignKey: 'pokemon_id'
 });
 
-Pokemon.belongsToMany(Seller, {
+Pokemon.belongsToMany(User, {
   through: {
     model: Sale,
   },
   as: 'pokes'
 });
-Seller.belongsToMany(Pokemon, {
+User.belongsToMany(Pokemon, {
   through: {
     model: Sale,
   },
   as: 'pokes'
 });
 
-module.exports = { Seller, Pokemon, Sale };
+module.exports = { User, Pokemon, Sale };

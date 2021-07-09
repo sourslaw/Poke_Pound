@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const sellerRoutes = require('./sellerRoutes');
+const userRoutes = require('./userRoutes');
 const pokemonRoutes = require('./pokemonRoutes');
 const saleRoutes = require('./testSaleRoutes.js');
 
 
-router.use('/seller', sellerRoutes);
+router.use('/user', userRoutes);
 router.use('/pokemon', pokemonRoutes);
 router.use('/sale', saleRoutes);
 

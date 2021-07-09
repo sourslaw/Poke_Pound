@@ -46,10 +46,10 @@ Pokemon.init(
     description: {
       type: DataTypes.TEXT,
     },
-    seller_id: {
+    user_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'seller',
+        model: 'user',
         key: 'id',
       },
     },

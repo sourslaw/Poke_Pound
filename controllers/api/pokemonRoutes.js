@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Pokemon, Seller } = require('../../models');
+const { Pokemon, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // GET all pokemon (backend api request: /api/pokemon/)
@@ -17,7 +17,7 @@ router.get('/', async (req,res) => {
 router.get('/:id', async (req, res) => {
 	try {
 	const pokemonData = await Pokemon.findByPk(req.params.id, {
-		// include: [ { model: Seller }, ]
+		// include: [ { model: User }, ]
 	});
 
 	if (!pokemonData) {

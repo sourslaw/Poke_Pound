@@ -38,10 +38,10 @@ Sale.init(
         key: 'id',
         },
     },
-    seller_id: {
+    user_id: {
         type: DataTypes.INTEGER,
         references: {
-        model: 'seller',
+        model: 'user',
         key: 'id',
         },
     },

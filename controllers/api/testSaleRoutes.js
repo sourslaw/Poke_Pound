@@ -1,11 +1,11 @@
 const router = require('express').Router();
-const { Seller, Pokemon, Sale } = require('../../models');
+const { User, Pokemon, Sale } = require('../../models');
 
 // GET all sales (backend request) 'api/sale'
 router.get('/', async (req,res) => {
 	try {
-		// const saleData = await Sale.findAll( { include: [ {model: Seller}, {model: Pokemon} ] } );
-		const saleData = await Sale.findAll( { include: [ {model: Pokemon}, {model:Seller} ] } );
+		// const saleData = await Sale.findAll( { include: [ {model: User}, {model: Pokemon} ] } );
+		const saleData = await Sale.findAll( { include: [ {model: Pokemon}, {model: User} ] } );
 		// const saleData = await Sale.findAll(  );
 
 		res.status(200).json(saleData);
@@ -18,7 +18,7 @@ router.get('/', async (req,res) => {
 router.get('/:id', async (req, res) => {
 	try {
 	const saleData = await Sale.findByPk(req.params.id, {
-		include: [ {model: Pokemon}, {model:Seller} ]
+		include: [ {model: Pokemon}, {model: User} ]
 
 	});
 
@@ -45,7 +45,7 @@ router.post('/', async (req, res) => {
 			defense: req.body.defense,
 			description: req.body.description,
             pokemon_id: req.body.pokemon_id,
-            seller_id: req.session.user_id,
+            User_id: req.session.user_id,
 		});
 
 		res.status(200).json(dbSaleData);
@@ -61,8 +61,8 @@ router.put('/:id', async (req, res) => {
 		const saleData = await Sale.update(
 			{
 				sold: true,
-				seller_id: req.session.user_id,
-				// seller_id: req.body.seller_id,
+				User_id: req.session.user_id,
+				// User_id: req.body.User_id,
 			},
 			{
 			where: {

@@ -1,6 +1,6 @@
 
 const router = require('express').Router();
-const { Pokemon, Seller, Sale } = require('../models');
+const { Pokemon, User, Sale } = require('../models');
 const withAuth = require('../utils/auth');
 
 // homepage route
@@ -20,7 +20,7 @@ router.get('/buy', async (req, res) => {
     try {
         // Get all projects and JOIN with user data
         // const saleData = await Sale.findAll({});
-        const saleData = await Sale.findAll({ include: [ {model: Pokemon}, {model:Seller} ] });
+        const saleData = await Sale.findAll({ include: [ {model: Pokemon}, {model:User} ] });
 
         // Serialize data so the template can read it
         const sales = saleData.map((sale) => sale.get({ plain: true }));
@@ -38,15 +38,15 @@ router.get('/buy', async (req, res) => {
 // route to create a sale
 router.get('/sell', withAuth, async (req, res) => {
 	try { // Find the logged in user based on the session ID
-		const sellerData = await Seller.findByPk(req.session.user_id, {
+		const UserData = await User.findByPk(req.session.user_id, {
 			attributes: { exclude: ['password'] },
 			include: [{ model: Sale }],
 		});
 
-    	const seller = sellerData.get({ plain: true });
+    	const User = UserData.get({ plain: true });
 
 		res.render('sell', {
-			...seller,
+			...User,
 			logged_in: true
 		});
 
@@ -55,21 +55,21 @@ router.get('/sell', withAuth, async (req, res) => {
 	}
 });
 
-// get all SALES buy seller ID
+// get all SALES buy User ID
 
 
-// route to seller dashboard
+// route to User dashboard
 router.get('/dashboard', withAuth, async (req, res) => {
 	try { // Find the logged in user based on the session ID
-		const sellerData = await Seller.findByPk(req.session.user_id, {
+		const UserData = await User.findByPk(req.session.user_id, {
 			attributes: { exclude: ['password'] },
 			include: [ {model:Pokemon, through: Sale, as:'pokes'} ],
 		});
 
-    	const seller = sellerData.get({ plain: true });
+    	const User = UserData.get({ plain: true });
 
 		res.render('dashboard', {
-			...seller,
+			...User,
 			logged_in: true
 		});
 
@@ -83,7 +83,7 @@ router.get('/dashboard', withAuth, async (req, res) => {
 // router.get('/sell', async (req, res) => {
 //     try {
 //         // Get all projects and JOIN with user data
-//         const saleData = await Sale.findAll({ include: [ {model: Pokemon}, {model:Seller} ] });
+//         const saleData = await Sale.findAll({ include: [ {model: Pokemon}, {model:User} ] });
 //         // Serialize data so the template can read it
 //         const sales = saleData.map((sale) => sale.get({ plain: true }));
 //         // Pass serialized data and session flag into template

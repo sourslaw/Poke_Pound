@@ -1,2 +1,3 @@
 const router = require('express').Router();
-const { Seller, Pokemon, } = require('../../models');
+const { User, Pokemon, Sale } = require('../../models');
+

@@ -1,23 +1,23 @@
 const router = require('express').Router();
-const { Seller, Pokemon, Sale } = require('../../models');
+const { User, Pokemon, Sale } = require('../../models');
 
 // GET all users (backend request)
 router.get('/', async (req,res) => {
 	try {
-		const sellerData = await Seller.findAll( { include: [  ] } );
+		const userData = await User.findAll( { include: [  ] } );
 
-		res.status(200).json(sellerData);
+		res.status(200).json(userData);
 
 	} catch (err) {
 		res.status(500).json(err);
 	}
 });
 
-// back end get one seller by :id
+// back end get one user by :id
 router.get('/:id', async (req,res) => {
 	try {
-		const sellerData = await Seller.findAll( { include: [ {model:Pokemon, through: Sale, as:'pokes'} ] } );
-		res.status(200).json(sellerData);
+		const userData = await User.findAll( { include: [ {model:Pokemon, through: Sale, as:'pokes'} ] } );
+		res.status(200).json(userData);
 	} catch (err) {
 		res.status(500).json(err);
 	}
@@ -27,10 +27,10 @@ router.get('/:id', async (req,res) => {
 
 
 
-// CREATE new seller: 'api/seller'
+// CREATE new user: 'api/user'
 router.post('/', async (req, res) => {
 	try {
-		const dbSellerData = await Seller.create({
+		const dbuserData = await user.create({
 			name: req.body.name,
 			email: req.body.email,
 			password: req.body.password,
@@ -38,10 +38,10 @@ router.post('/', async (req, res) => {
 		});
 
 		req.session.save(() => {
-		req.session.user_id = dbSellerData.id;
+		req.session.user_id = dbuserData.id;
 		req.session.logged_in = true;
 
-		res.status(200).json(dbSellerData);
+		res.status(200).json(dbuserData);
 
 		});
 
@@ -52,16 +52,16 @@ router.post('/', async (req, res) => {
 
 router.post('/login', async (req, res) => {
   try { // Find the user who matches the posted name 
-    const sellerData = await Seller.findOne({ where: { name: req.body.name } });
+    const userData = await user.findOne({ where: { name: req.body.name } });
 
-	if (!sellerData) {
+	if (!userData) {
 		res
 		.status(400)
 		.json({ message: 'Incorrect name or password, please try again' });
 		return;
 	}
 	// Verify the posted password with the password store in the database
-	const validPassword = await sellerData.checkPassword(req.body.password);
+	const validPassword = await userData.checkPassword(req.body.password);
 
 	if (!validPassword) {
 		res
@@ -71,16 +71,18 @@ router.post('/login', async (req, res) => {
 	}
 	// Create session variables based on the logged in user
 	req.session.save(() => {
-		req.session.user_id = sellerData.id;
+		req.session.user_id = userData.id;
 		req.session.logged_in = true;
 		
-		res.json({ seller: sellerData, message: 'You are now logged in!' });
+		res.json({ user: userData, message: 'You are now logged in!' });
 	});
 
 	} catch (err) {
 		res.status(400).json(err);
 	}
 });
+
+
 
 router.post('/logout', (req, res) => {
 	if (req.session.logged_in) {
