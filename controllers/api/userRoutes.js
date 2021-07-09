@@ -30,7 +30,7 @@ router.get('/:id', async (req,res) => {
 // CREATE new user: 'api/user'
 router.post('/', async (req, res) => {
 	try {
-		const dbuserData = await user.create({
+		const dbuserData = await User.create({
 			name: req.body.name,
 			email: req.body.email,
 			password: req.body.password,
@@ -52,7 +52,7 @@ router.post('/', async (req, res) => {
 
 router.post('/login', async (req, res) => {
   try { // Find the user who matches the posted name 
-    const userData = await user.findOne({ where: { name: req.body.name } });
+    const userData = await User.findOne({ where: { name: req.body.name } });
 
 	if (!userData) {
 		res
