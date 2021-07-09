@@ -38,10 +38,7 @@ Seller.init(
     wallet: {
       type: DataTypes.STRING,
       allowNull: false,
-<<<<<<< HEAD
-=======
       defaultValue: 250,
->>>>>>> c065120bd96331e31c210b521b97d3d9ce6c9b69
       validate: {
         min: 100,
         max: 1000,
