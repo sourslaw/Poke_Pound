@@ -16,16 +16,12 @@ router.get('/', async (req,res) => {
 // back end get one user by :id
 router.get('/:id', async (req,res) => {
 	try {
-		const userData = await User.findAll( { include: [ {model:Pokemon, through: Sale, as:'pokes'} ] } );
+		const userData = await User.findByPk(req.params.id, { include: [ {model:Pokemon, through: Sale, as:'pokes'} ] } );
 		res.status(200).json(userData);
 	} catch (err) {
 		res.status(500).json(err);
 	}
 });
-
-
-
-
 
 // CREATE new user: 'api/user'
 router.post('/', async (req, res) => {

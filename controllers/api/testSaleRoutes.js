@@ -45,7 +45,7 @@ router.post('/', async (req, res) => {
 			defense: req.body.defense,
 			description: req.body.description,
             pokemon_id: req.body.pokemon_id,
-            User_id: req.session.user_id,
+            user_id: req.session.user_id,
 		});
 
 		res.status(200).json(dbSaleData);
@@ -61,7 +61,7 @@ router.put('/:id', async (req, res) => {
 		const saleData = await Sale.update(
 			{
 				sold: true,
-				User_id: req.session.user_id,
+				user_id: req.session.user_id,
 				// User_id: req.body.User_id,
 			},
 			{
