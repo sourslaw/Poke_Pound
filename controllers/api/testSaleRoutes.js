@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Seller, Pokemon, Sale } = require('../../models');
 
-// GET all sales (backend request)
+// GET all sales (backend request) 'api/sale'
 router.get('/', async (req,res) => {
 	try {
 		// const saleData = await Sale.findAll( { include: [ {model: Seller}, {model: Pokemon} ] } );
@@ -9,6 +9,25 @@ router.get('/', async (req,res) => {
 		// const saleData = await Sale.findAll(  );
 
 		res.status(200).json(saleData);
+
+	} catch (err) {
+		res.status(500).json(err);
+	}
+});
+// GET ind. sale (backend request)
+router.get('/:id', async (req, res) => {
+	try {
+	const saleData = await Sale.findByPk(req.params.id, {
+		include: [ {model: Pokemon}, {model:Seller} ]
+
+	});
+
+	if (!saleData) {
+		res.status(404).json({ message: 'No sale found with this id!' });
+		return;
+	}
+
+	res.status(200).json(saleData);
 
 	} catch (err) {
 		res.status(500).json(err);
@@ -35,6 +54,30 @@ router.post('/', async (req, res) => {
 		res.status(500).json(err);
 	}
 });
+
+// update the sale
+router.put('/:id', async (req, res) => {
+	try {
+		const saleData = await Sale.update(
+			{
+				sold: true,
+				seller_id: req.session.user_id,
+				// seller_id: req.body.seller_id,
+			},
+			{
+			where: {
+				id: req.params.id,
+			},
+		}
+	);
+	
+	res.status(200).json(saleData);
+		
+	} catch (err) {
+    	res.status(500).json(err);
+	}
+});
+
 
 
 module.exports = router;

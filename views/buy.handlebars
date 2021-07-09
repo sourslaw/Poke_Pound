@@ -1,9 +1,12 @@
 {{#each sales as |sale|}}
+
+{{#unless sale.sold}}
+
     {{!-- bulma card --}}
     <div class="card" id="pokeCard__main">  
 
         {{!-- bulma card content --}}
-        <div class="card-content">
+        <div class="card-content id="{{ sale.id }}">
 
             <div class="pokeCard__image-container">
                 <img src="{{ pokemon.gif }}" alt="" class="card__image" id="pokeCard_image">   
@@ -36,11 +39,12 @@
         {{!-- bulma card footer --}}
         <div class="card-footer" id="pokeCard-footer">
             <p class="card-footer-item">
-                {{!-- <span> --}}
-                    <button class="button is-fullwidth" id="pokeCardBuyButt"><a href="#">Buy</a></button>
-                {{!-- </span> --}}
+                <button class="button is-fullwidth" id="{{ sale.id }}" onclick="buyButtHandler(this);">b u y</button>
             </p>
         </div>
 
     </div>
+
+{{/unless}}
+
 {{/each}}

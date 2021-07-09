@@ -27,6 +27,10 @@ Sale.init(
     description: {
         type: DataTypes.TEXT,
     },
+    sold: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false
+    },
     pokemon_id: {
         type: DataTypes.INTEGER,
         references: {

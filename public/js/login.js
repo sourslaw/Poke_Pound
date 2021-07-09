@@ -1,4 +1,4 @@
-// login, open modal
+// MODAL stuff: login, open modal
 const logInModalEl = document.getElementById('logInButton');
 const modalContLog = document.getElementById('logInModal');
 logInModalEl.addEventListener('click', function() {
