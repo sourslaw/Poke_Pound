@@ -1,4 +1,4 @@
-{{#each pokemons as |pokemon|}}
+{{#each sales as |sale|}}
     {{!-- bulma card --}}
     <div class="card" id="pokeCard__main">  
 
@@ -10,22 +10,22 @@
             </div>
         
             <div class="pokeCard__caption">
-                <h1 class="pokeCard__name">{{ pokemon.pokemon }}</h1>
-                <h3 class="pokeCard__type">{{ pokemon.type1 }}</h3>
+                <h1 class="pokeCard__name">{{ sale.name }}</h1>
+                {{!-- <h3 class="pokeCard__type">{{ sale.type1 }}</h3> --}}
 
                 <ul class="pokeCard__stats">
                     <li>
-                        <p id="pokeCardStatPara">Attack   {{ pokemon.attack }}</p>
+                        <p id="pokeCardStatPara">Attack   {{ sale.attack }}</p>
                     </li>
                     <li>
-                        <p id="pokeCardStatPara">Defense  {{ pokemon.defense }}</p>
+                        <p id="pokeCardStatPara">Defense  {{ sale.defense }}</p>
                     </li>
                     <li>
-                        <p id="pokeCard__price">Price  $ {{ pokemon.price }}</p>
+                        <p id="pokeCard__price">Price  $ {{ sale.price }}</p>
                     </li>
                     <li>
                         <h5>Special Notes:</h5>
-                        <p id="pokeCard__note">{{ pokemon.description }}</p>
+                        <p id="pokeCard__note">{{ sale.description }}</p>
                     </li>
                 </ul>
 

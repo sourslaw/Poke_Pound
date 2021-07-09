@@ -1,13 +1,36 @@
 const Seller = require('./Seller');
 const Pokemon = require('./Pokemon');
+const Sale = require('./Sale');
 
-Seller.hasMany(Pokemon, {
+
+Seller.hasMany(Sale, {
   foreignKey: 'seller_id',
   // onDelete: 'CASCADE'
 });
 
-Pokemon.belongsTo(Seller, {
+Sale.belongsTo(Seller, {
   foreignKey: 'seller_id'
 });
 
-module.exports = { Seller, Pokemon };
+Pokemon.hasMany(Sale, {
+  foreignKey: 'pokemon_id'
+});
+
+Sale.belongsTo(Pokemon, {
+  foreignKey: 'pokemon_id'
+});
+
+Pokemon.belongsToMany(Seller, {
+  through: {
+    model: Sale,
+  },
+  as: 'pokes'
+});
+Seller.belongsToMany(Pokemon, {
+  through: {
+    model: Sale,
+  },
+  as: 'pokes'
+});
+
+module.exports = { Seller, Pokemon, Sale };

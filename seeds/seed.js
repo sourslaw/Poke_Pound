@@ -1,8 +1,9 @@
 const sequelize = require('../config/connection');
-const { Pokemon, Seller } = require('../models');
+const { Pokemon, Seller, Sale } = require('../models');
 
 const sellerData = require('./sellerData.json');
 const pokemonData = require('./pokemonData.json');
+const saleData = require('./testsaleData.json');
 
 
 const seedDatabase = async () => {
@@ -14,6 +15,11 @@ const seedDatabase = async () => {
   });
 
   await Pokemon.bulkCreate(pokemonData, {
+    individualHooks: true,
+    returning: true,
+  });
+
+  await Sale.bulkCreate(saleData, {
     individualHooks: true,
     returning: true,
   });

@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { Seller, Pokemon } = require('../../models');
+const { Seller, Pokemon, Sale } = require('../../models');
 
 // GET all users (backend request)
 router.get('/', async (req,res) => {
 	try {
-		const sellerData = await Seller.findAll( { include: [ {model: Pokemon} ] } );
+		const sellerData = await Seller.findAll( { include: [  ] } );
 
 		res.status(200).json(sellerData);
 
@@ -13,6 +13,20 @@ router.get('/', async (req,res) => {
 	}
 });
 
+// back end get one seller by :id
+router.get('/:id', async (req,res) => {
+	try {
+		const sellerData = await Seller.findAll( { include: [ {model:Pokemon, through: Sale, as:'pokes'} ] } );
+		res.status(200).json(sellerData);
+	} catch (err) {
+		res.status(500).json(err);
+	}
+});
+
+
+
+
+
 // CREATE new seller: 'api/seller'
 router.post('/', async (req, res) => {
 	try {
@@ -20,6 +34,7 @@ router.post('/', async (req, res) => {
 			name: req.body.name,
 			email: req.body.email,
 			password: req.body.password,
+			// wallet: req.body.wallet
 		});
 
 		req.session.save(() => {

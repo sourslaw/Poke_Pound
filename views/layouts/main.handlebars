@@ -22,7 +22,7 @@
                 <a class="navbar-item" href="/buy">
                     Buy
                 </a>
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" href="/sell">
                     Sell
                 </a>
             </div>
@@ -30,12 +30,23 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-primary" href="/login" id="signInButton">
-                            <strong>Sign up</strong>
-                        </a>
-                        <a class="button is-light" href="" id="logInButton">
-                            Log in
-                        </a>
+
+                        {{#if logged_in}}
+                            <a class="button is-light" href="/dashboard" id="dashboard">
+                                Dashboard
+                            </a>
+                            <a class="button is-light" href="" id="logout">
+                                Log Out
+                            </a>
+                        {{else}}
+                            <a class="button is-primary" href="/login" id="signInButton">
+                                <strong>Sign up</strong>
+                            </a> 
+                            <a class="button is-light" href="" id="logInButton">
+                                Log In
+                            </a>
+                        {{/if}}
+
                     </div>
                 </div>
             </div>
@@ -63,9 +74,18 @@
         </div>
     </footer>
 
+<<<<<<< HEAD
     <script src="/js/logout.js"></script>
     <script src="/js/login.js"></script>
 
+=======
+    <script src="/js/login.js"></script>
+    <script src="/js/sale.js"></script>
+
+	{{#if logged_in}}
+    <script src="/js/logout.js"></script>
+	{{/if}}
+>>>>>>> c065120bd96331e31c210b521b97d3d9ce6c9b69
     
 </body>
 </html>
