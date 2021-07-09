@@ -1,0 +1,81 @@
+<div class="columns" id="dashboardColumn">
+    <div class="column is-two-thirds">
+
+        <div class="box">
+            <h1>hello, {{ name }}</h1>
+        </div>
+
+        <div class="columns" id="dashboardColumn">
+            {{!-- column one, for sale --}}
+            <div class="column is-half">
+                <div class="box">
+                    <h2>pokemon currently for sale . . .</h2>
+
+                    {{#each pokes as |poke|}}
+                    {{#unless poke.sale.sold}}
+
+                    <div class="card" id="pokeCard__dashboard">  
+                        <div class="card-content">
+                            <div class="pokeCard__image-container">
+                                <img src="{{ poke.gif }}" alt="" class="card__image" id="pokeCard_image">   
+                            </div>
+                            <div class="pokeCard__caption">
+                                <h1 class="pokeCard__name">{{ poke.sale.name }}</h1>
+                                <ul class="pokeCard__stats">
+                                    <li><p id="pokeCardStatPara">Attack   {{ poke.sale.attack }}</p></li>
+                                    <li><p id="pokeCardStatPara">Defense  {{ poke.sale.defense }}</p></li>
+                                    <li><p id="pokeCard__price">Price  $ {{ poke.sale.price }}</p></li>
+                                    <li><h5>Special Notes:</h5>
+                                        <p id="pokeCard__note">{{ poke.sale.description }}</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {{/unless}}
+                    {{/each}}
+
+                </div>
+
+            </div>
+            {{!-- column two, purchased --}}
+            <div class="column is-half">
+                <div class="box">
+                    <h2>pokemon you have . . .</h2>
+
+                    {{#each pokes as |poke|}}
+                    {{#if poke.sale.sold}}
+
+                    <div class="card" id="pokeCard__dashboard">  
+                        <div class="card-content">
+                            <div class="pokeCard__image-container">
+                                <img src="{{ poke.gif }}" alt="" class="card__image" id="pokeCard_image">   
+                            </div>
+                            <div class="pokeCard__caption">
+                                <h1 class="pokeCard__name">{{ poke.sale.name }}</h1>
+                                <ul class="pokeCard__stats">
+                                    <li><p id="pokeCardStatPara">Attack   {{ poke.sale.attack }}</p></li>
+                                    <li><p id="pokeCardStatPara">Defense  {{ poke.sale.defense }}</p></li>
+                                    <li><p id="pokeCard__price">Price  $ {{ poke.sale.price }}</p></li>
+                                    <li><h5>Special Notes:</h5>
+                                        <p id="pokeCard__note">{{ poke.sale.description }}</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer" id="pokeCard-footer">
+                            <p class="card-footer-item">
+                                <button class="button is-fullwidth" id="{{ poke.sale.id }}" onclick="freedomHandler(this);">set free</button>
+                            </p>
+                        </div>
+                    </div>
+
+                    {{/if}}
+                    {{/each}}
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
