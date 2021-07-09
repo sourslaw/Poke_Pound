@@ -1,5 +1,4 @@
 const buyButtHandler = async (obj) => {
-
   const saleId = obj.id;
   
   console.log(`you clicked ${saleId}`);
