@@ -24,10 +24,9 @@ modalCloseEl.addEventListener('click', function() {
   modalSignLog.classList.remove('is-active');
 });
 // modal close (X). . .
-const modalClose = document.getElementById('modalClose');
-modalClose.addEventListener('click', function() {
-  location.reload();
-});
+const modalClose = function() {
+	location.reload();
+  };
 
 
 // login form
