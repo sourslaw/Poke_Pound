@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Slim",
+		"email": "slim@me.com",
+		"password": "password1234",
+		"wallet": "150"
+	},
+	{
+		"name": "Ivan",
+		"email": "ivan@me.com",
+		"password": "password1234",
+		"wallet": "150"
+	},
+	{
+		"name": "Isa",
+		"email": "isa@aol.com",
+		"password": "password1234",
+		"wallet": "150"
+	},
+	{
+		"name": "Carlos",
+		"email": "carlos@me.com",
+		"password": "password1234",
+		"wallet": "150"
+	}
+]
