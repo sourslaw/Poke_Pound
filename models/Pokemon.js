@@ -22,8 +22,11 @@ Pokemon.init(
       type: DataTypes.STRING,
     },
     price: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        isDecimal: true,
+      }
     },
     attack: {
       type: DataTypes.INTEGER,

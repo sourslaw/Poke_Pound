@@ -143,6 +143,8 @@ ul {
 .box {
     border-radius: 15px;
 }
+
+
 #dashboardColumn {
     display: flex;
     justify-content: center;

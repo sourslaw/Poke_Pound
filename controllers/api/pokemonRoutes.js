@@ -21,11 +21,31 @@ router.get('/:id', async (req, res) => {
 	});
 
 	if (!pokemonData) {
-		res.status(404).json({ message: 'No blog found with this id!' });
+		res.status(404).json({ message: 'No pokemon found with this id!' });
 		return;
 	}
 
 	res.status(200).json(pokemonData);
+
+	} catch (err) {
+		res.status(500).json(err);
+	}
+});
+
+// route to GET the price of the pokemon
+router.get('/price', async (req, res) => {
+	res.render('test');
+	try {
+	const pokemonPrice = await Pokemon.findOne({where: {price: req.body.price,}} 
+		// include: [ { model: User }, ]
+	);
+
+	if (!pokemonPrice) {
+		res.status(404).json({ message: 'No pokemon found for that price!' });
+		return;
+	}
+
+	res.status(200).json(pokemonPrice);
 
 	} catch (err) {
 		res.status(500).json(err);

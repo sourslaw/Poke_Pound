@@ -40,7 +40,7 @@ User.init(
       allowNull: false,
       defaultValue: 250,
       validate: {
-        min: 100,
+        min: 0,
         max: 1000,
         isNumeric: true
       }

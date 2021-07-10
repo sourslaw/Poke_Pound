@@ -30,7 +30,7 @@ router.post('/', async (req, res) => {
 			name: req.body.name,
 			email: req.body.email,
 			password: req.body.password,
-			// wallet: req.body.wallet
+			wallet: req.body.wallet
 		});
 
 		req.session.save(() => {
@@ -45,6 +45,7 @@ router.post('/', async (req, res) => {
 		res.status(500).json(err);
 	}
 });
+
 
 router.post('/login', async (req, res) => {
   try { // Find the user who matches the posted name 
@@ -78,6 +79,54 @@ router.post('/login', async (req, res) => {
 	}
 });
 
+// route for getting data about user to be used client side
+router.get("/api/user_data", function(req, res) {
+    if (!req.user) {
+      // The user is not logged in, send back an empty object
+      res.json({});
+    } else {
+      // Otherwise send back the user's email and id
+      res.json({
+        email: req.user.email,
+        id: req.user.id,
+        wallet: req.user.wallet
+      });
+    }
+  });
+
+
+// route to create wallet
+router.get('/wallet', async (req, res) => {
+	console.log(hello);
+	try {
+		const wallet = await User.findByPk(req.params.id, 
+			{
+				include: [{ model: Pokemon }],
+			  });
+			  if (!wallet) {
+				res.status(404).json({ message: 'Your wallet is empty!' });
+			  	return;
+			}
+		
+			res.status(200).json(wallet);
+		  } catch (err) {
+			res.status(500).json(err);
+		  }
+});
+
+
+// PUT route for updating wallet amount
+router.put('/wallet/:id', async (req, res) => {
+	try {
+		const updateWallet = await User.update(
+			{user_id: req.body.user_id},
+			{where: {id: req.params.id}}
+		);
+		res.status(200).json(updateWallet);
+	} catch (err) {
+	  res.status(400).json(err);
+	}
+});
 
 
 router.post('/logout', (req, res) => {

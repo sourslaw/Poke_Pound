@@ -25,6 +25,7 @@
                 <a class="navbar-item" href="/sell">
                     Sell
                 </a>
+               
             </div>
 
             <div class="navbar-end">
@@ -53,6 +54,14 @@
             
         </div>
     </nav>
+     {{#if logged_in}}
+        <div class="box">
+            <label class="label" id= "currentWallet">
+                    Wallet {{wallet}}   
+            </label>
+        </div>
+    {{else}}
+    {{/if}}
 
     <main>
         <div class="body">

@@ -78,6 +78,23 @@ router.put('/:id', async (req, res) => {
 	}
 });
 
+// GET price
+router.get('/:id/price', async (req, res) => {
+	try {
+		const priceData = await Sale.findByPk(req.params.id, {
+			include: [ {model: Pokemon}, {model: User}]
+		});
 
+		if (!priceData) {
+			res.status(404).json({ message: 'No price found with this id!' });
+		return;
+	}
+
+	res.status(200).json(saleData);
+
+	} catch (err) {
+		res.status(500).json(err);
+	}
+});
 
 module.exports = router;
