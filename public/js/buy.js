@@ -20,7 +20,16 @@ const buyButtHandler = async (obj) => {
   }
 };
 
+const freedomHandler = async (obj) => {
+  const saleId = obj.id;
+  
+  const response = await fetch(`/api/sale/${saleId}`, {
+      method: 'DELETE',
+  });
 
-document
-  .querySelector('#pokeCardBuyButt')
-  .addEventListener('click', buyButtHandler);
+  if (response.ok) {
+      document.location.replace('/dashboard');
+  } else {
+      alert('failed to set the pokemon free:(');
+  }
+};
