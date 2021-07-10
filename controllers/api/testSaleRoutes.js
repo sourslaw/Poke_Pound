@@ -78,6 +78,25 @@ router.put('/:id', async (req, res) => {
 	}
 });
 
+// delete the sale (set free)
+router.delete('/:id', async (req, res) => {
+	try {
+		const saleData = await Sale.destroy({
+			where: {
+			id: req.params.id,
+			},
+		});
 
+		if (!saleData) {
+			res.status(404).json({ message: 'No sale with this id!' });
+			return;
+		}
+
+		res.status(200).json(saleData);
+	
+	} catch (err) {
+		res.status(500).json(err);
+	}
+});
 
 module.exports = router;
