@@ -26,7 +26,7 @@ modalCloseEl.addEventListener('click', function() {
 // modal close (X). . .
 const modalClose = function() {
 	location.reload();
-  };
+};
 
 
 // login form
