@@ -78,6 +78,28 @@ router.put('/:id', async (req, res) => {
 	}
 });
 
+// return to adoption
+router.put('/return/:id', async (req, res) => {
+	try {
+		const saleData = await Sale.update(
+			{
+				sold: false,
+
+			},
+			{
+			where: {
+				id: req.params.id,
+			},
+		}
+	);
+	
+	res.status(200).json(saleData);
+		
+	} catch (err) {
+    	res.status(500).json(err);
+	}
+});
+
 // delete the sale (set free)
 router.delete('/:id', async (req, res) => {
 	try {

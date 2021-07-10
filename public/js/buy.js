@@ -20,6 +20,20 @@ const buyButtHandler = async (obj) => {
   }
 };
 
+const adoptionReturnHandler = async (obj) => {
+  const saleId = obj.id;
+  
+  const response = await fetch(`/api/sale/return/${saleId}`, {
+      method: 'PUT',
+  });
+
+  if (response.ok) {
+      document.location.replace('/dashboard');
+  } else {
+      alert('failed to set the pokemon free:(');
+  }
+};
+
 const freedomHandler = async (obj) => {
   const saleId = obj.id;
   
