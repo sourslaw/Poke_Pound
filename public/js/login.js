@@ -1,15 +1,25 @@
 // MODAL stuff: login, open modal
-
+const logInModalEl = document.getElementById('logInButton');
 const modalContLog = document.getElementById('logInModal');
+logInModalEl.addEventListener('click', function() {
+  event.preventDefault();
+  console.log('log in button clicked')
+  modalContLog.classList.add('is-active');
+});
 // login, close modal
 const modalLogCloseEl = document.getElementById('modalLogClose');
-
 modalLogCloseEl.addEventListener('click', function() {
   modalContLog.classList.remove('is-active');
 });
-// sign in, open modal
-const modalSignLog = document.getElementById('signInModal');
 
+// sign in, open modal
+const signInEl = document.getElementById('signInButton');
+const modalSignLog = document.getElementById('signInModal');
+signInEl.addEventListener('click', function() {
+  event.preventDefault();
+  modalSignLog.classList.add('is-active');
+});
+// sign in, close modal
 const modalCloseEl = document.getElementById('modalSignClose');
 modalCloseEl.addEventListener('click', function() {
   modalSignLog.classList.remove('is-active');
@@ -18,17 +28,19 @@ modalCloseEl.addEventListener('click', function() {
 const modalClose = function() {
   location.reload();
 };
-// onclick logIn handler
+//TEST onclick logIn handler
 const logInButtonHandler = async (event) => {
   event.preventDefault();
+
   console.log('you clikced the handler')
   modalContLog.classList.add('is-active');
 };
-// onclick signIn handler
 const signInButtonHandler = async (event) => {
   event.preventDefault();
+
   console.log('you clikced the handler')
   modalSignLog.classList.add('is-active');
+  
 };
 
 // login form
