@@ -138,6 +138,11 @@ ul {
 
 }
 
+/* buttons for adoption, return, set free */
+.is-fullwidth {
+  border-radius: 5px;
+}
+
 /* dashboard layout */
 .box {
     border-radius: 15px;
