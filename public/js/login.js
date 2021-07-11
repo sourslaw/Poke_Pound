@@ -1,16 +1,5 @@
 // MODAL stuff: login, open modal
-// onclick logIn handler
-const logInButtonHandler = async (event) => {
-  event.preventDefault();
-  console.log('you clikced the handler')
-  modalContLog.classList.add('is-active');
-};
-// onclick signIn handler
-const signInButtonHandler = async (event) => {
-  event.preventDefault();
-  console.log('you clikced the handler')
-  modalSignLog.classList.add('is-active');
-};
+
 const modalContLog = document.getElementById('logInModal');
 // login, close modal
 const modalLogCloseEl = document.getElementById('modalLogClose');
@@ -29,7 +18,18 @@ modalCloseEl.addEventListener('click', function() {
 const modalClose = function() {
   location.reload();
 };
-
+// onclick logIn handler
+const logInButtonHandler = async (event) => {
+  event.preventDefault();
+  console.log('you clikced the handler')
+  modalContLog.classList.add('is-active');
+};
+// onclick signIn handler
+const signInButtonHandler = async (event) => {
+  event.preventDefault();
+  console.log('you clikced the handler')
+  modalSignLog.classList.add('is-active');
+};
 
 // login form
 const loginFormHandler = async (event) => {
