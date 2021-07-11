@@ -17,9 +17,9 @@
 		 		<button class="button is-danger is-light" href="/sell" id="logInButton">
 				 Rehome Today!</button>
 				{{else}}
-		 		<button class="button is-danger is-dark" href="/login" id="signInButton">
+		 		<button class="button is-danger is-dark" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
 				 Sign up now!</button>
-		 		<button class="button is-danger is-light" href="/login" id="logInButton">
+        		<button class="button is-danger is-light" id="logInButton" onclick="logInButtonHandler(event);">
 				 Already user?</button>
 				{{/if}}
 			</div>

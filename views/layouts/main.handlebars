@@ -39,10 +39,10 @@
                                 Log Out
                             </a>
                         {{else}}
-                            <a class="button is-danger" href="/login" id="signInButton">
+                            <a class="button is-primary" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
                                 <strong>Sign up</strong>
                             </a> 
-                            <a class="button is-danger is-light" href="" id="logInButton">
+                            <a class="button is-light" href="" id="logInButton" onclick="logInButtonHandler(event);">
                                 Log In
                             </a>
                         {{/if}}
