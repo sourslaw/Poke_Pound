@@ -1,89 +1,87 @@
-// MODAL stuff: login, open modal
+// MODAL stuff
+// Login modal
 const modalContLog = document.getElementById('logInModal');
-// login, close modal
-const modalLogCloseEl = document.getElementById('modalLogClose');
-modalLogCloseEl.addEventListener('click', function() {
-  modalContLog.classList.remove('is-active');
-});
-// sign in, open modal
+// SignIn  modal
 const modalSignLog = document.getElementById('signInModal');
-// sign in, close modal
-const modalCloseEl = document.getElementById('modalSignClose');
-modalCloseEl.addEventListener('click', function() {
-  modalSignLog.classList.remove('is-active');
-});
 // modal close (X) . . .
 const modalClose = function() {
-  location.reload();
+    location.reload();
 };
-//TEST onclick logIn handler
+// onclick logIn handler
 const logInButtonHandler = async (event) => {
-  event.preventDefault();
-  console.log('you clikced the handler')
-  modalContLog.classList.add('is-active');
+    event.preventDefault();
+    console.log('you clikced the handler')
+    modalContLog.classList.toggle('is-active');
 };
+// onclick SignIn handler
 const signInButtonHandler = async (event) => {
-  event.preventDefault();
-  console.log('you clikced the handler')
-  modalSignLog.classList.add('is-active');
+    event.preventDefault();
+    console.log('you clikced the handler')
+    modalSignLog.classList.toggle('is-active');
 };
+// hamburger shit. toggles the hamburger nav list when mobile
+const hamburgerToggle = document.getElementById('navbarBasicExample');
+const navbarHamHandler = async (event) => {
+    hamburgerToggle.classList.toggle('is-active');
+};
+
 
 
 // login form
 const loginFormHandler = async (event) => {
-  event.preventDefault();
-  console.log('LOG IN BUTTON')
+    event.preventDefault();
+    console.log('LOG IN BUTTON')
 
-  const name = document.querySelector('#name-login').value.trim();
-  const password = document.querySelector('#password-login').value.trim();
+    const name = document.querySelector('#name-login').value.trim();
+    const password = document.querySelector('#password-login').value.trim();
 
-  if (name && password) {
-    const response = await fetch('/api/user/login', {
-    method: 'POST',
-    body: JSON.stringify({ name, password }),
-    headers: { 'Content-Type': 'application/json' },
-      });
+    if (name && password) {
+      const response = await fetch('/api/user/login', {
+      method: 'POST',
+      body: JSON.stringify({ name, password }),
+      headers: { 'Content-Type': 'application/json' },
+        });
 
-  if (response.ok) {
-    document.location.replace('/');
-  } else {
-    alert('Failed to log in.');
-  }
-  }
+    if (response.ok) {
+      document.location.replace('/');
+    } else {
+      alert('Failed to log in.');
+    }
+    }
 };
 
 // sign up form
 const signupFormHandler = async (event) => {
-  event.preventDefault();
+    event.preventDefault();
 
-  const name = document.querySelector('#name-signup').value.trim();
-  const email = document.querySelector('#email-signup').value.trim();
-  const password = document.querySelector('#password-signup').value.trim();
+    const name = document.querySelector('#name-signup').value.trim();
+    const email = document.querySelector('#email-signup').value.trim();
+    const password = document.querySelector('#password-signup').value.trim();
 
-  if (name && email && password) {
-    const response = await fetch('/api/user', {
-    method: 'POST',
-    body: JSON.stringify({ name, email, password }),
-    headers: { 'Content-Type': 'application/json' },
-    });
+    if (name && email && password) {
+      const response = await fetch('/api/user', {
+      method: 'POST',
+      body: JSON.stringify({ name, email, password }),
+      headers: { 'Content-Type': 'application/json' },
+      });
 
-    if (response.ok) {
-        document.location.replace('/');
+      if (response.ok) {
+          document.location.replace('/');
 
-    } else {
-        alert('Failed to sign up.');
+      } else {
+          alert('Failed to sign up.');
+      }
     }
-  }
 };
 
 
 document
-  .querySelector('.login-form')
-  .addEventListener('submit', loginFormHandler);
+    .querySelector('.login-form')
+    .addEventListener('submit', loginFormHandler);
 
 document
-  .querySelector('.signup-form')
-  .addEventListener('submit', signupFormHandler);
+    .querySelector('.signup-form')
+    .addEventListener('submit', signupFormHandler);
 
 // bulbasaur signup
 // var flag = 0;
