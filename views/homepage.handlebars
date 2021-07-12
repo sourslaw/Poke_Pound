@@ -1,34 +1,34 @@
 <div class="container" id="homePlaceholder">
-<div class="columns is-mobile is-centered">
-  <div class="column is-half">
+	<div class="columns is-mobile is-centered">
 
-    <div class="fade-in-image">
-		 <img src="./assests/pokeball_PNG21.png"> 
-	</div>
+		<div class="column is-half">
 
-<div class="field is-grouped">
-	<div class="fade-in-button">
-		<div class="columns is-multiline is-centered">
-			<div class="buttons are-large">
-				{{!--these links don't work --}}
-				{{#if logged_in}}
-				<button class="button is-danger is-dark" href="/buy" id="signInButton">
-				 Adopt Today!</button>
-		 		<button class="button is-danger is-light" href="/sell" id="logInButton">
-				 Rehome Today!</button>
-				{{else}}
-		 		{{!-- <button class="button is-danger is-dark" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
-				 Sign up now!</button>
-        		<button class="button is-danger is-light" id="logInButton" onclick="logInButtonHandler(event);">
-				 Already user?</button> --}}
-				<button class="button is-danger is-dark" href="/login" id="signInButton">
-				 Sign up now!</button>
-        		<button class="button is-danger is-light" id="logInButton">
-				 Already user?</button>
-				{{/if}}
+			<div class="fade-in-image">
+				<img src="./assests/pokeball_PNG21.png"> 
+			</div>
+
+			<div class="field is-grouped">
+				<div class="fade-in-button">
+					<div class="columns is-multiline is-centered">
+						<div class="buttons are-large">
+
+							{{#if logged_in}}
+							<button class="button is-danger is-dark" href="/buy" onclick="adoptTodaynButtonHandler(event);">
+							Adopt Today!</button>
+							<button class="button is-danger is-light" href="/sell" onclick="rehomeTodaynButtonHandler(event);">
+							Rehome Today!</button>
+							{{else}}
+							<button class="button is-danger is-dark" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
+							Sign up now!</button>
+							<button class="button is-danger is-light" id="logInButton" onclick="logInButtonHandler(event);">
+							Already user?</button>
+							{{/if}}
+
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+
 	</div>
-</div>
-</div>
 </div>

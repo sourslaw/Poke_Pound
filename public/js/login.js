@@ -1,23 +1,12 @@
 // MODAL stuff: login, open modal
-const logInModalEl = document.getElementById('logInButton');
 const modalContLog = document.getElementById('logInModal');
-logInModalEl.addEventListener('click', function() {
-  event.preventDefault();
-  modalContLog.classList.add('is-active');
-});
 // login, close modal
 const modalLogCloseEl = document.getElementById('modalLogClose');
 modalLogCloseEl.addEventListener('click', function() {
   modalContLog.classList.remove('is-active');
 });
-
 // sign in, open modal
-const signInEl = document.getElementById('signInButton');
 const modalSignLog = document.getElementById('signInModal');
-signInEl.addEventListener('click', function() {
-  event.preventDefault();
-  modalSignLog.classList.add('is-active');
-});
 // sign in, close modal
 const modalCloseEl = document.getElementById('modalSignClose');
 modalCloseEl.addEventListener('click', function() {
@@ -27,6 +16,18 @@ modalCloseEl.addEventListener('click', function() {
 const modalClose = function() {
   location.reload();
 };
+//TEST onclick logIn handler
+const logInButtonHandler = async (event) => {
+  event.preventDefault();
+  console.log('you clikced the handler')
+  modalContLog.classList.add('is-active');
+};
+const signInButtonHandler = async (event) => {
+  event.preventDefault();
+  console.log('you clikced the handler')
+  modalSignLog.classList.add('is-active');
+};
+
 
 // login form
 const loginFormHandler = async (event) => {
@@ -74,6 +75,7 @@ const signupFormHandler = async (event) => {
     }
   }
 };
+
 
 document
   .querySelector('.login-form')
@@ -186,4 +188,3 @@ document
 //   $(".pupil").css("transform","translate(13px, 7px)");
 //   $(".pupil2").css("transform","translate(0px, 7px)");
 // }
-

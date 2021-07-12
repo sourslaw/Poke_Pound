@@ -39,7 +39,13 @@
         {{!-- bulma card footer --}}
         <div class="card-footer" id="pokeCard-footer">
             <p class="card-footer-item">
+
+				{{#if logged_in}}
                 <button class="button is-fullwidth" id="{{ sale.id }}" onclick="buyButtHandler(this);">Adopt!</button>
+				{{else}}
+				<button class="button is-fullwidth" id="{{ sale.id }}">Login to Adopt!</button>
+				{{/if}}
+
             </p>
         </div>
 

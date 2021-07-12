@@ -13,6 +13,7 @@ router.get('/', async (req,res) => {
     	res.status(500).json(err);
     }
 });
+
 // GET ind. pokemon (backend api request: /api/pokemon/:id)
 router.get('/:id', async (req, res) => {
 	try {
