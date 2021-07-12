@@ -6,7 +6,7 @@
     <div class="card" id="pokeCard__main">  
 
         {{!-- bulma card content --}}
-        <div class="card-content id="{{ sale.id }}">
+        <div class="card-content" id="{{ sale.id }}">
 
             <div class="pokeCard__image-container">
                 <img src="{{ pokemon.gif }}" alt="" class="card__image" id="pokeCard_image">   
@@ -40,11 +40,15 @@
         <div class="card-footer" id="pokeCard-footer">
             <p class="card-footer-item">
 
-				{{#if logged_in}}
-                <button class="button is-fullwidth" id="{{ sale.id }}" onclick="buyButtHandler(this);">Adopt!</button>
+                {{#unless logged_in}}
+                    <a class="button is-fullwidth" id="{{ sale.id }}" onclick="buyButtHandler(this);">
+                        Adopt!
+                    </a>
 				{{else}}
-				<button class="button is-fullwidth" id="{{ sale.id }}">Login to Adopt!</button>
-				{{/if}}
+                    <a class="button is-fullwidth" id="">
+                        Login to Adopt!
+                    </a>
+				{{/unless}}
 
             </p>
         </div>
