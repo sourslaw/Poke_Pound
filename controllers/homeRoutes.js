@@ -55,9 +55,6 @@ router.get('/sell', withAuth, async (req, res) => {
 	}
 });
 
-// get all SALES buy User ID
-
-
 // route to User dashboard
 router.get('/dashboard', withAuth, async (req, res) => {
 	try { // Find the logged in user based on the session ID

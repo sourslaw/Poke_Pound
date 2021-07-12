@@ -3,7 +3,6 @@ const logInModalEl = document.getElementById('logInButton');
 const modalContLog = document.getElementById('logInModal');
 logInModalEl.addEventListener('click', function() {
   event.preventDefault();
-  console.log('log in button clicked')
   modalContLog.classList.add('is-active');
 });
 // login, close modal
@@ -28,24 +27,11 @@ modalCloseEl.addEventListener('click', function() {
 const modalClose = function() {
   location.reload();
 };
-//TEST onclick logIn handler
-const logInButtonHandler = async (event) => {
-  event.preventDefault();
-
-  console.log('you clikced the handler')
-  modalContLog.classList.add('is-active');
-};
-const signInButtonHandler = async (event) => {
-  event.preventDefault();
-
-  console.log('you clikced the handler')
-  modalSignLog.classList.add('is-active');
-  
-};
 
 // login form
 const loginFormHandler = async (event) => {
   event.preventDefault();
+  console.log('LOG IN BUTTON')
 
   const name = document.querySelector('#name-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
@@ -64,7 +50,6 @@ const loginFormHandler = async (event) => {
   }
   }
 };
-
 
 // sign up form
 const signupFormHandler = async (event) => {
@@ -89,6 +74,14 @@ const signupFormHandler = async (event) => {
     }
   }
 };
+
+document
+  .querySelector('.login-form')
+  .addEventListener('submit', loginFormHandler);
+
+document
+  .querySelector('.signup-form')
+  .addEventListener('submit', signupFormHandler);
 
 // bulbasaur signup
 // var flag = 0;
@@ -194,10 +187,3 @@ const signupFormHandler = async (event) => {
 //   $(".pupil2").css("transform","translate(0px, 7px)");
 // }
 
-// document
-//   .querySelector('.login-form')
-//   .addEventListener('submit', loginFormHandler);
-
-// document
-//   .querySelector('.signup-form')
-//   .addEventListener('submit', signupFormHandler);

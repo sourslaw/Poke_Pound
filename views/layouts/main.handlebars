@@ -39,10 +39,16 @@
                                 Log Out
                             </a>
                         {{else}}
-                            <a class="button is-primary" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
+                            {{!-- <a class="button is-primary" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
                                 <strong>Sign up</strong>
                             </a> 
                             <a class="button is-light" href="" id="logInButton" onclick="logInButtonHandler(event);">
+                                Log In
+                            </a> --}}
+							<a class="button is-primary" href="/login" id="signInButton">
+                                <strong>Sign up</strong>
+                            </a> 
+                            <a class="button is-light" href="" id="logInButton">
                                 Log In
                             </a>
                         {{/if}}

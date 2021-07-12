@@ -93,41 +93,6 @@ router.get("/api/user_data", function(req, res) {
     }
   });
 
-
-// // route to create wallet
-// router.get('/wallet', async (req, res) => {
-// 	console.log(hello);
-// 	try {
-// 		const wallet = await User.findByPk(req.params.id, 
-// 			{
-// 				include: [{ model: Pokemon }],
-// 			  });
-// 			  if (!wallet) {
-// 				res.status(404).json({ message: 'Your wallet is empty!' });
-// 			  	return;
-// 			}
-		
-// 			res.status(200).json(wallet);
-// 		  } catch (err) {
-// 			res.status(500).json(err);
-// 		  }
-// });
-
-
-// PUT route for updating wallet amount
-router.put('/wallet/:id', async (req, res) => {
-	try {
-		const updateWallet = await User.update(
-			{user_id: req.body.user_id},
-			{where: {id: req.params.id}}
-		);
-		res.status(200).json(updateWallet);
-	} catch (err) {
-	  res.status(400).json(err);
-	}
-});
-
-
 router.post('/logout', (req, res) => {
 	if (req.session.logged_in) {
 	// Remove the session variables
