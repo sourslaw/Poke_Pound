@@ -2,14 +2,16 @@
     <div class="column is-two-thirds">
 
         <div class="box">
-            <h1>hello, {{ name }}</h1>
+            <h1>Hello, {{ name }}</h1>
         </div>
 
-        <div class="columns" id="dashboardColumn">
+        <div class="columns">
             {{!-- column one, for sale --}}
             <div class="column is-half">
                 <div class="box">
-                    <h2>pokemon currently for sale . . .</h2>
+					<div id="dashboardSections">
+                    	<h2>pokemon currently up for adoption . . .</h2>
+					</div>
 
                     {{#each pokes as |poke|}}
                     {{#unless poke.sale.sold}}
@@ -41,7 +43,9 @@
             {{!-- column two, purchased --}}
             <div class="column is-half">
                 <div class="box">
-                    <h2>pokemon you have . . .</h2>
+					<div id="dashboardSections">
+                    	<h2>pokemon you have adopted . . .</h2>
+					</div>
 
                     {{#each pokes as |poke|}}
                     {{#if poke.sale.sold}}
