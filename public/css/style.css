@@ -9,8 +9,10 @@ html, body {
 
 #backgroundWallpaper {
   background: url(https://cutewallpaper.org/21/pokemon-landscape-wallpaper/Pokemon-Sun-and-Moon-HD-Wallpaper-Background-Image-.jpg) fixed;
-  zoom: 0.75;
-
+  zoom: 0.55;
+  width: 100%;
+  height: 100%;
+  background-repeat:  no-repeat;
 }
 /* #mainBackground {
   width: 100%;
@@ -31,8 +33,12 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70rem;
-  height: 50rem;
+  width: 170rem;
+  height: 70rem;
+}
+#logoSize{
+  width: 60rem;
+  height: 60rem;
 }
 /* for sticky footer */
 .main {
@@ -412,7 +418,6 @@ Circle Rulers
 
 /* Logo fade in animation */
 .fade-in-image {
-  animation-delay: 300ms;
   animation: fadeIn 4s;
   -webkit-animation: fadeIn 4s;
   -moz-animation: fadeIn 4s;
