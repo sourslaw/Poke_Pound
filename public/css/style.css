@@ -7,20 +7,20 @@ body {
   height: 100%;
 } */
 #backgroundWallpaper {
-  background: url(https://cutewallpaper.org/21/pokemon-landscape-wallpaper/Pokemon-Sun-and-Moon-HD-Wallpaper-Background-Image-.jpg) fixed;
-  /* zoom: 0.55; */
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-repeat:  no-repeat;
-  background-position: center center;
+  background: url(https://cutewallpaper.org/21/pokemon-landscape-wallpaper/Pokemon-Sun-and-Moon-HD-Wallpaper-Background-Image-.jpg) fixed;
+  /* zoom: 0.55; */
+  background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
 }
 #homePlaceholder {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 170rem;
-  height: 70rem;
+  height: 50rem;
 }
 #logoSize{
   width: 35rem;

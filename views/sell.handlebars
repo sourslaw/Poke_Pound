@@ -2,12 +2,12 @@
     <div class="columns" id="saleForm">
 
         <div class="column is-half">
-            <div class="box">
+            <div class="box box-shadow">
                 
                 <form class="new-sale-form">
                     {{!-- will get the pokemon_id based on the pokemon selected --}}
                     <div class="field">
-                        <label class="label">Pokemon</label>
+                        <label class="label">Pokémon</label>
                         <div class="control">
                             <div class="select">
                             <select id="pokeSaleDropdown">
@@ -20,31 +20,34 @@
                     <div class="field">
                         <label class="label">Name</label>
                         <div class="control">
-                            <input class="input" type="text" id="pokeSaleName" placeholder="Please enter the name of the pokemon . . .">
+                            <input class="input" type="text" id="pokeSaleName" placeholder="Please enter the name of the pokémon . . .">
+                        </div>
+                    </div>
+
+                     <div class="field">
+                        <label class="label">Level</label>
+                        <div class="control">
+                            <input class="input" type="text" id="pokeSalePrice" placeholder="Please enter the level of the pokémon . . .">
                         </div>
                     </div>
                     <div class="field">
                         <label class="label">Attack</label>
                         <div class="control">
-                            <input class="input" type="text" id="pokeSaleAttack" placeholder="Please enter the attack stat of the pokemon . . .">
+                            <input class="input" type="text" id="pokeSaleAttack" placeholder="Please enter the attack stat of the pokémon . . .">
                         </div>
                     </div>
+                    
                     <div class="field">
                         <label class="label">Defense</label>
                         <div class="control">
-                            <input class="input" type="text" id="pokeSaleDefense" placeholder="Please enter the defense stat of the pokemon . . .">
+                            <input class="input" type="text" id="pokeSaleDefense" placeholder="Please enter the defense stat of the pokémon . . .">
                         </div>
                     </div>
+
                     <div class="field">
                         <label class="label">Description</label>
                         <div class="control">
-                            <textarea class="textarea has-fixed-size" type="text" id="pokeSaleDescription" placeholder="Please enter a description about the pokemon . . ."></textarea>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Level</label>
-                        <div class="control">
-                            <input class="input" type="text" id="pokeSalePrice" placeholder="Please enter the level of the pokemon . . .">
+                            <textarea class="textarea has-fixed-size" type="text" id="pokeSaleDescription" placeholder="Please enter a description about the pokémon . . ."></textarea>
                         </div>
                     </div>
 
