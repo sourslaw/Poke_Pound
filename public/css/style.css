@@ -215,7 +215,7 @@ ul {
 
 /* pokeball loader */
 
-*, *::after, *::before {
+/* *, *::after, *::before {
   box-sizing: border-box;
 }
 
@@ -407,7 +407,7 @@ Circle Rulers
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 
 /* Logo fade in animation */
