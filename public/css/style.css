@@ -3,9 +3,9 @@ body {
   flex-direction: column;
   margin: 0;
 }
-html, body {
+/* html, body {
   height: 100%;
-}
+} */
 
 #backgroundWallpaper {
   background: url(https://cutewallpaper.org/21/pokemon-landscape-wallpaper/Pokemon-Sun-and-Moon-HD-Wallpaper-Background-Image-.jpg) fixed;
