@@ -1,64 +1,66 @@
-<div class="container">
-    
-<div class="columns" id="saleForm">
-    <div class="column is-half">
-<div class="box">
-        <form class="new-sale-form">
-            {{!-- will get the pokemon_id based on the pokemon selected --}}
-            <div class="field">
-                <label class="label">Pokemon</label>
-                <div class="control">
-                    <div class="select">
-                    <select id="pokeSaleDropdown">
+<div class="container">  
+    <div class="columns" id="saleForm">
 
-                    </select>
+        <div class="column is-half">
+            <div class="box">
+                
+                <form class="new-sale-form">
+                    {{!-- will get the pokemon_id based on the pokemon selected --}}
+                    <div class="field">
+                        <label class="label">Pokemon</label>
+                        <div class="control">
+                            <div class="select">
+                            <select id="pokeSaleDropdown">
+
+                            </select>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="field">
-                <label class="label">Name</label>
-                <div class="control">
-                    <input class="input" type="text" id="pokeSaleName" placeholder="Please enter the name of the pokemon . . .">
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Attack</label>
-                <div class="control">
-                    <input class="input" type="text" id="pokeSaleAttack" placeholder="Please enter the attack stat of the pokemon . . .">
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Defense</label>
-                <div class="control">
-                    <input class="input" type="text" id="pokeSaleDefense" placeholder="Please enter the defense stat of the pokemon . . .">
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Description</label>
-                <div class="control">
-                    <textarea class="textarea has-fixed-size" type="text" id="pokeSaleDescription" placeholder="Please enter a description about the pokemon . . ."></textarea>
-                </div>
-            </div>
-            <div class="field">
-                <label class="label">Level</label>
-                <div class="control">
-                    <input class="input" type="text" id="pokeSalePrice" placeholder="Please enter the level of the pokemon . . .">
-                </div>
-            </div>
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="text" id="pokeSaleName" placeholder="Please enter the name of the pokemon . . .">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Attack</label>
+                        <div class="control">
+                            <input class="input" type="text" id="pokeSaleAttack" placeholder="Please enter the attack stat of the pokemon . . .">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Defense</label>
+                        <div class="control">
+                            <input class="input" type="text" id="pokeSaleDefense" placeholder="Please enter the defense stat of the pokemon . . .">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Description</label>
+                        <div class="control">
+                            <textarea class="textarea has-fixed-size" type="text" id="pokeSaleDescription" placeholder="Please enter a description about the pokemon . . ."></textarea>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Level</label>
+                        <div class="control">
+                            <input class="input" type="text" id="pokeSalePrice" placeholder="Please enter the level of the pokemon . . .">
+                        </div>
+                    </div>
 
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button is-link" type="submit" value="Submit">Submit</button>
-                </div>
-                <div class="control">
-                    <button class="button is-link is-light">Cancel</button>
-                </div>
-            </div>
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button is-link" type="submit" value="Submit">Submit</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-link is-light">Cancel</button>
+                        </div>
+                    </div>
 
-        </form>
+                </form>
+
+            </div>
+        </div>
+
     </div>
-    </div>
-</div>
-
 </div>
