@@ -12,7 +12,6 @@ router.get('/', async (req,res) => {
 		res.status(500).json(err);
 	}
 });
-
 // back end get one user by :id
 router.get('/:id', async (req,res) => {
 	try {

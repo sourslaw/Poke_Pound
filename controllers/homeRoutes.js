@@ -1,4 +1,3 @@
-
 const router = require('express').Router();
 const { Pokemon, User, Sale } = require('../models');
 const withAuth = require('../utils/auth');
