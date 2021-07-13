@@ -14,23 +14,23 @@ To use this application you will need to login to the deployed site on Heroku, c
 
 ## Contact Info
 Daniel Mosso
-https://github.com/benjimosso
+https://github.com/benjimosso;
 benjimosso@gmail.com
 
 Hayley Parish
-https://github.com/heparish
+https://github.com/heparish;
 heparish@ucdavis.edu
 
 Scott Lawan
-https://github.com/sourslaw
+https://github.com/sourslaw;
 lawanscott@gmail.com
 
 Adrian Aguilar
-https://github.com/Ascension23
+https://github.com/Ascension23;
 Tygor23@gmail.com
 
 Gabriel Garcia Ruiz
-https://github.com/ggruiz7
+https://github.com/ggruiz7;
 garciagabriel1945@gmail.com
 
 ## Links
