@@ -8,95 +8,95 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
 
-<body>
+    <body>
 
-    {{> modal-login}}
-    {{> modal-signup }}
+        {{> modal-login}}
+        {{> modal-signup }}
 
-    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
-        {{!-- BRAND --}}
-        <div class="navbar-brand">
-            {{!-- placeholder for a branding element? --}}
-            <a class="navbar-item" href="/">
-                <img class="is-rounded" src="./assests/poke pound no poke.png">
-            </a>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onclick="navbarHamHandler(event);">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        {{!-- end BRAND --}}
-        
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start ">
-                <a class="navbar-item has-text-danger is-size-5" href="/">
-                    <strong>Home</strong>
+        <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+            {{!-- BRAND --}}
+            <div class="navbar-brand">
+                {{!-- placeholder for a branding element? --}}
+                <a class="navbar-item" href="/">
+                    <img class="is-rounded" src="./assests/poke pound no poke.png">
                 </a>
-                <a class="navbar-item" href="/buy">
-                    Adopt
-                </a>
-                <a class="navbar-item" href="/sell">
-                    Place Pokémon up for Adoption
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onclick="navbarHamHandler(event);">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
                 </a>
             </div>
+            {{!-- end BRAND --}}
+            
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start ">
+                    <a class="navbar-item has-text-danger is-size-5" href="/">
+                        <strong>Home</strong>
+                    </a>
+                    <a class="navbar-item" href="/buy">
+                        Adopt
+                    </a>
+                    <a class="navbar-item" href="/sell">
+                        Place Pokémon up for Adoption
+                    </a>
+                </div>
 
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <div class="buttons">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
 
-                        {{#if logged_in}}
-                            <a class="button is-light" href="/dashboard" id="dashboard">
-                                My Dashboard
-                            </a>
-                            <a class="button is-danger is-light" href="" id="logout">
-                                Log Out
-                            </a>
-                        {{else}}
-                            <a class="button is-danger" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
-                                <strong>Sign up</strong>
-                            </a> 
-                            <a class="button is-danger is-light" href="" id="logInButton" onclick="logInButtonHandler(event);">
-                                Log In
-                            </a>
-                        {{/if}}
+                            {{#if logged_in}}
+                                <a class="button is-light" href="/dashboard" id="dashboard">
+                                    My Dashboard
+                                </a>
+                                <a class="button is-danger is-light" href="" id="logout">
+                                    Log Out
+                                </a>
+                            {{else}}
+                                <a class="button is-danger" href="/login" id="signInButton" onclick="signInButtonHandler(event);">
+                                    <strong>Sign up</strong>
+                                </a> 
+                                <a class="button is-danger is-light" href="" id="logInButton" onclick="logInButtonHandler(event);">
+                                    Log In
+                                </a>
+                            {{/if}}
 
+                        </div>
                     </div>
                 </div>
+                
             </div>
+        </nav>
+
+        <main class="main" id="backgroundWallpaper">
+            <div class="body">
+
+                    {{{ body }}}
+
+            </div>
+        </main>
             
-        </div>
-    </nav>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong><a href="https://jgthms.com"></a>Bulma</a></strong>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                </p>
+                <p>
+                This site is built by <a href="https://github.com/Ascension23" target="_blank">Adrian</a>, <a href="https://github.com/sourslaw" target="_blank">Scott</a>, <a href="https://github.com/benjimosso" target="_blank">Daniel</a>, <a href="https://github.com/heparish"
+                    target="_blank">Haley</a>, <a href="/" target="_blank">Gabriel</a>.
+                </p>
+            </div>
+        </footer>
 
-    <main class="main" id="backgroundWallpaper">
-        <div class="body">
+        <script src="/js/login.js"></script>
+        <script src="/js/sale.js"></script>
 
-                {{{ body }}}
-
-        </div>
-    </main>
+        {{#if logged_in}}
+        <script src="/js/logout.js"></script>
+        <script src="/js/buy.js"></script>
+        {{/if}}
         
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <p>
-                <strong><a href="https://jgthms.com"></a>Bulma</a></strong>. The source code is licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-            </p>
-            <p>
-			This site is built by <a href="https://github.com/Ascension23" target="_blank">Adrian</a>, <a href="https://github.com/sourslaw" target="_blank">Scott</a>, <a href="https://github.com/benjimosso" target="_blank">Daniel</a>, <a href="https://github.com/heparish"
-				target="_blank">Haley</a>, <a href="/" target="_blank">Gabriel</a>.
-            </p>
-        </div>
-    </footer>
-
-    <script src="/js/login.js"></script>
-    <script src="/js/sale.js"></script>
-
-	{{#if logged_in}}
-    <script src="/js/logout.js"></script>
-    <script src="/js/buy.js"></script>
-	{{/if}}
-    
-</body>
+    </body>
 </html>

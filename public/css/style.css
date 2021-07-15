@@ -1,6 +1,8 @@
-/* html, body {
+html, body {
   height: 100%;
-} */
+}
+
+
 
 body {
   display: flex;
@@ -157,9 +159,11 @@ ul {
   display: flex;
   /* justify-content: space-evenly; */
   justify-content: center;
-  align-items: stretch;
+  /* align-items: stretch; */
   margin-top: 4rem;
   margin-bottom: 4rem;
+
+  height: 500px;
 }
 /* SALE form */
 #saleForm {
@@ -214,205 +218,6 @@ ul {
 .is-fullwidth {
   border-radius: 5px;
 }
-
-
-
-/* pokeball loader */
-
-/* *, *::after, *::before {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Playfair Display', serif;
-  background: rgb(23, 22, 22);
-  color: #fff;
-}
-
-.preloader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background: rgb(23, 22, 22);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  transition: opacity 0.3s linear;
-}
-.page-content {
-  max-width: 768px;
-  margin: 0 auto;
-}
-
-@keyframes blur {
-  0% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-  }
-  50% {
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-  }
-}
-
-#top1 {
-  transform-origin: bottom center;
-  animation: move_top1 ease-out 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes move_top1 {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  50% {
-    transform: translate(-1.5%, -25%) scale(1.3) rotate(-0.5deg);
-  }
-  100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-}
-
-#top2 {
-  transform-origin: bottom left;
-  animation: move_top2 ease-out 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes move_top2 {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  50% {
-    transform: translate(-10%, 1%) scale(1.1) rotate(-2.1deg);
-  }
-  100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-}
-
-#bottom1 {
-  transform-origin: top center;
-  animation: move_bottom1 ease-out 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes move_bottom1 {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  50% {
-    transform: translate(0%, 45%) scale(1.3) rotate(0deg);
-  }
-  100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-}
-
-#bottom2 {
-  transform-origin: top left;
-  animation: move_bottom2 ease-out 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes move_bottom2 {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  50% {
-    transform: translate(38%, 1%) scale(1.3) rotate(-3.5deg);
-  }
-  100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-}
-
-#bottom3 {
-  transform-origin: top right;
-  animation: move_bottom3 ease-out 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes move_bottom3 {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  50% {
-    transform: translate(12%, 5%) scale(1.1) rotate(-1deg);
-  }
-  100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-}
-
-#bottom4 {
-  transform-origin: top left;
-  animation: move_bottom4 ease-out 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes move_bottom4 {
-  0% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-  50% {
-    transform: translate(-12%, 5%) scale(1.1) rotate(0deg);
-  }
-  100% {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-  }
-}
-
-svg {
-  width: 300px;
-  animation: animationFrames ease-in-out 1s;
-  animation-delay: 0.05s;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
-}
-
-@keyframes animationFrames {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-720deg);
-  }
-}
-
-Circle Rulers
-.centerWrapper:before {
-  display: block;
-  content: '';
-  width: 280px;
-  height: 280px;
-  border-radius: 100%;
-  border: 1px solid red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.centerWrapper:after {
-  display: block;
-  content: '';
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-  border: 1px solid red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
 
 /* Logo fade in animation */
 .fade-in-image {
