@@ -29,10 +29,6 @@ Adrian Aguilar
 https://github.com/Ascension23;
 Tygor23@gmail.com
 
-Gabriel Garcia Ruiz
-https://github.com/ggruiz7;
-garciagabriel1945@gmail.com
-
 ## Links
 * https://gist.github.com/santiagoolivar2017/0591a53c4dd34ecd8488660c7372b0e3
 * https://csvjson.com/csv2json
