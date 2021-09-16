@@ -12,22 +12,16 @@
 ## Usage
 - To use this application you will need to login to the deployed site on Heroku, creating a username and password. Your Pokémon will be saved and manageable once logged in. The 'Adopt' section of the app will show all Pokémon that are available to be adopted. 'Place Pokémon up for Adoption' will allow the user to create a listing with the Pokémon's information for other trainers to adopt. The 'Dashboard' will have a listing of all of your Pokémon as well as the Pokémon that you currently have up for adoption. From the 'Dashboard', trainers can send their Pokémon back to the Adoption page if they wish and they can also 'release' them to the wild.
 
-## Contact Info
+## Contributors
 - Daniel Mosso
-https://github.com/benjimosso;
-benjimosso@gmail.com
-
+	- [GitHub](https://github.com/benjimosso)
+	- [Email](benjimosso@gmail.com)
 - Haley Parish
-https://github.com/heparish;
-heparish@ucdavis.edu
-
-- Scott Lawan
-https://github.com/sourslaw;
-lawanscott@gmail.com
-
+	- [GitHub](https://github.com/heparish)
+	- [Email](heparish@ucdavis.edu)
 - Adrian Aguilar
-https://github.com/Ascension23;
-Tygor23@gmail.com
+	- [GitHub](https://github.com/Ascension23)
+	- [Email](Tygor23@gmail.com)
 
 ## Links
 * https://gist.github.com/santiagoolivar2017/0591a53c4dd34ecd8488660c7372b0e3
